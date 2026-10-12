@@ -1,0 +1,108 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/3jnihsg-rcdh1.js"],""]
+3:I[39756,["/_next/static/chunks/3jnihsg-rcdh1.js"],"default"]
+4:I[37457,["/_next/static/chunks/3jnihsg-rcdh1.js"],"default"]
+6:I[97367,["/_next/static/chunks/3jnihsg-rcdh1.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+a:I[97367,["/_next/static/chunks/3jnihsg-rcdh1.js"],"ViewportBoundary"]
+c:I[97367,["/_next/static/chunks/3jnihsg-rcdh1.js"],"MetadataBoundary"]
+e:I[68027,["/_next/static/chunks/3jnihsg-rcdh1.js"],"default",1]
+:HL["/_next/static/chunks/1j3kk2u0-jrn5.css","style"]
+:HL["/_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+9:X
+0:{"P":null,"c":["","posts","ai-agents-06-ai-agents",""],"q":"","i":false,"f":[[["",{"children":["posts",{"children":[["slug","ai-agents-06-ai-agents","d",[]],{"children":["__PAGE__",{},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4624],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1j3kk2u0-jrn5.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/3jnihsg-rcdh1.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"geist_deef94d5-module__Sms4YG__variable geist_mono_1bf8cbf6-module__FlyLvG__variable font-sans min-h-dvh flex flex-col","children":[["$","a",null,{"href":"#main","className":"sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-50 focus:rounded focus:bg-surface focus:px-3 focus:py-2 focus:text-sm","children":"Skip to content"}],["$","header",null,{"className":"border-b border-line","children":["$","nav",null,{"aria-label":"Main","className":"mx-auto flex max-w-3xl items-center gap-6 px-6 py-4 text-sm","children":[[["$","$L2","/",{"href":"/","className":"hover:text-accent","children":"Home"}],["$","$L2","/projects/",{"href":"/projects/","className":"hover:text-accent","children":"Projects"}],["$","$L2","/about/",{"href":"/about/","className":"hover:text-accent","children":"About"}]],["$","span",null,{"className":"grow"}],null]}]}],["$","main",null,{"id":"main","className":"mx-auto w-full max-w-3xl grow px-6 py-12","children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"flex flex-col gap-4","children":[["$","h1",null,{"className":"text-3xl font-semibold tracking-tight","children":"Not found"}],["$","p",null,{"className":"text-muted","children":"There is nothing at this address."}],["$","p",null,{"className":"flex gap-4 text-sm","children":[["$","$L2",null,{"href":"/","className":"hover:text-accent","children":"Home"}],["$","$L2",null,{"href":"/projects/","className":"hover:text-accent","children":"Projects"}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",null,["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,null]},null,false,"$9"]},null,false,"$9"]},null,false,null],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$e",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1j3kk2u0-jrn5.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"VDGM687Pf0SWUEseeGcYp"}
+9:C
+f:T29f8,<p><em>About an 8-minute read</em></p>
+<p>An <strong>AI agent</strong> is a model given a goal, tools and know-how, and left to work in a loop: decide the next step, take it, check the result, and repeat until the goal is met or it needs a person. The loop is what separates an agent from a chat assistant.</p>
+<h2>From answering to doing</h2>
+<p>Ask a chat assistant &quot;what should I do about these 40 receipts?&quot; and you get advice. Give an agent the goal &quot;process this month&#39;s receipts for client 1042&quot; and it opens the folder, reads each receipt, looks up the client&#39;s categories, writes the rows, notices three are missing and drafts an email about them. It does not stop after one reply; it keeps going until the job is done.</p>
+<p>That difference — a single answer versus a finished piece of work — is why agents matter for anyone who wants to sell outcomes rather than advice.</p>
+<h2>The loop</h2>
+<figure class="diagram"><svg viewBox="0 0 760 392" role="img" aria-label="An agent repeats decide, act, check until the goal is met" font-size="13"><defs><marker id="loop-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--cds-chart-axis)"></path></marker></defs><text x="24" y="34" font-size="15" font-weight="600" fill="var(--cds-text-primary)">An agent repeats decide, act, check until the goal is met</text><g fill="none" stroke="var(--cds-chart-axis)" stroke-width="1.25"><path d="M134 150H158" marker-end="url(#loop-arrow)"></path><path d="M278 150H302" marker-end="url(#loop-arrow)"></path><path d="M422 150H446" marker-end="url(#loop-arrow)"></path><path d="M566 150H580" marker-end="url(#loop-arrow)"></path><path d="M632 114V84H218V122" marker-end="url(#loop-arrow)"></path><path d="M632 186V242" marker-end="url(#loop-arrow)"></path><path d="M218 178V242" marker-end="url(#loop-arrow)"></path></g><g><rect x="24" y="122" width="110" height="56" rx="8" fill="none" fill-opacity="1" stroke="var(--cds-chart-axis)" stroke-width="1.25"></rect><text x="79" y="146" text-anchor="middle" font-weight="600" fill="var(--cds-text-primary)">Goal</text><text x="79" y="164" text-anchor="middle" font-size="11.5" fill="var(--cds-text-secondary)">from a person</text></g><g><rect x="158" y="122" width="120" height="56" rx="8" fill="none" fill-opacity="1" stroke="var(--cds-chart-axis)" stroke-width="1.25"></rect><text x="218" y="146" text-anchor="middle" font-weight="600" fill="var(--cds-text-primary)">1 · Decide</text><text x="218" y="164" text-anchor="middle" font-size="11.5" fill="var(--cds-text-secondary)">the next step</text></g><g><rect x="302" y="122" width="120" height="56" rx="8" fill="none" fill-opacity="1" stroke="var(--cds-chart-axis)" stroke-width="1.25"></rect><text x="362" y="146" text-anchor="middle" font-weight="600" fill="var(--cds-text-primary)">2 · Act</text><text x="362" y="164" text-anchor="middle" font-size="11.5" fill="var(--cds-text-secondary)">use a tool</text></g><g><rect x="446" y="122" width="120" height="56" rx="8" fill="none" fill-opacity="1" stroke="var(--cds-chart-axis)" stroke-width="1.25"></rect><text x="506" y="146" text-anchor="middle" font-weight="600" fill="var(--cds-text-primary)">3 · Check</text><text x="506" y="164" text-anchor="middle" font-size="11.5" fill="var(--cds-text-secondary)">read the result</text></g><g><polygon points="580,150 632,114 684,150 632,186" fill="none" stroke="var(--cds-chart-axis)" stroke-width="1.25"></polygon><text x="632" y="154" text-anchor="middle" fill="var(--cds-text-primary)">Done?</text></g><g><rect x="572" y="242" width="120" height="56" rx="8" fill="var(--cds-chart-categorical-1)" fill-opacity="0.12" stroke="var(--cds-chart-categorical-1)" stroke-width="2"></rect><text x="632" y="266" text-anchor="middle" font-weight="600" fill="var(--cds-text-primary)">Deliver</text><text x="632" y="284" text-anchor="middle" font-size="11.5" fill="var(--cds-text-primary)">the result</text></g><g><rect x="158" y="242" width="120" height="56" rx="8" fill="none" fill-opacity="1" stroke="var(--cds-chart-axis)" stroke-width="1.25"></rect><text x="218" y="266" text-anchor="middle" font-weight="600" fill="var(--cds-text-primary)">Ask a person</text><text x="218" y="284" text-anchor="middle" font-size="11.5" fill="var(--cds-text-secondary)">then carry on</text></g><text x="425" y="76" text-anchor="middle" font-size="11.5" fill="var(--cds-text-secondary)">not yet: go round again</text><text x="642" y="220" font-size="11.5" fill="var(--cds-text-secondary)">yes</text><text x="228" y="214" font-size="11.5" fill="var(--cds-text-secondary)">unsure, or the step is risky</text><g><rect x="24" y="322" width="712" height="44" rx="8" fill="var(--cds-chart-reference-tint)" stroke="var(--cds-chart-axis)" stroke-width="1"></rect><text x="380" y="348" text-anchor="middle" fill="var(--cds-text-primary)">Every step draws on: instructions · tools · skills · knowledge · notes from earlier steps</text></g></svg></figure><p>Each pass round the loop is one small step. The model looks at its desk — the goal, its instructions, what it has done so far — and decides what to do next. It asks for a tool. The result lands back on its desk. It checks whether the goal is now met. If not, round it goes again.</p>
+<p>Two exits matter as much as the loop itself. <strong>Deliver</strong> when the work is complete. <strong>Ask a person</strong> when it is unsure, when something does not match, or when the next step is one you have marked as needing approval.</p>
+<h2>The recipe</h2>
+<p>You have already met every ingredient:</p>
+<ul>
+<li><strong>A model</strong> — the brain (Post 1).</li>
+<li><strong>Instructions</strong> — the job description and the rules (Post 2).</li>
+<li><strong>Tools</strong> — the actions it may take, often through connectors (Posts 3 and 4).</li>
+<li><strong>Skills and knowledge</strong> — your procedures and your documents (Post 5).</li>
+<li><strong>The loop</strong> — software that keeps passing results back to the model and decides when to stop. People sometimes call this the <strong>harness</strong>.</li>
+<li><strong>Stopping rules</strong> — when to deliver, when to ask, and when to give up.</li>
+</ul>
+<p>The model is the part everyone talks about, but the other five are the parts you design. They are also what makes one agent reliable and another a liability.</p>
+<h2>Linh&#39;s agent, step by step</h2>
+<p>Here is one real pass through a client&#39;s month, with each loop marked:</p>
+<ol>
+<li><strong>Decide:</strong> &quot;I should see what arrived.&quot; <strong>Act:</strong> list new files in the client&#39;s folder. <strong>Check:</strong> 38 receipts.</li>
+<li><strong>Decide:</strong> &quot;Read the first receipt using the &#39;Read a receipt&#39; skill.&quot; <strong>Act:</strong> read it. <strong>Check:</strong> a hotel bill that includes a dinner.</li>
+<li><strong>Decide:</strong> &quot;The skill says split hotel and meals.&quot; <strong>Act:</strong> write two rows. <strong>Check:</strong> rows saved.</li>
+<li>The same pattern repeats for the other receipts. Two are faded: it marks them UNCLEAR instead of guessing.</li>
+<li><strong>Decide:</strong> &quot;Compare with the client&#39;s bank statement.&quot; <strong>Act:</strong> read the statement. <strong>Check:</strong> three payments have no receipt.</li>
+<li><strong>Decide:</strong> &quot;Draft the missing-receipts email.&quot; <strong>Act:</strong> create a draft, not send it. <strong>Check:</strong> done?</li>
+<li><strong>Exit: ask a person.</strong> It hands Linh&#39;s team a summary: 36 receipts filed, 2 unclear, 3 missing, email waiting for approval.</li>
+</ol>
+<p>Notice that nobody told the agent the order of steps 5 and 6. It worked them out from the goal and the skills. That flexibility is the strength of an agent, and also its risk.</p>
+<h2>How much freedom to give</h2>
+<p>Autonomy is a dial, not a switch. Most businesses should move along it slowly, on evidence.</p>
+<table>
+<thead>
+<tr>
+<th>Level</th>
+<th>The agent...</th>
+<th>The person...</th>
+<th>Good for</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1 · Suggest</td>
+<td>drafts or recommends</td>
+<td>does the work, using the draft</td>
+<td>Starting out; high-stakes tasks</td>
+</tr>
+<tr>
+<td>2 · Act with approval</td>
+<td>prepares each action</td>
+<td>approves or edits before it happens</td>
+<td>Most new services</td>
+</tr>
+<tr>
+<td>3 · Act, then report</td>
+<td>acts within set limits</td>
+<td>reviews a summary and spot-checks</td>
+<td>Proven, repetitive work</td>
+</tr>
+<tr>
+<td>4 · Act alone</td>
+<td>handles everything routine</td>
+<td>sees only the exceptions</td>
+<td>Low-risk, high-volume work with a long track record</td>
+</tr>
+</tbody></table>
+<p>Start at level 2. Move a task up a level only when your records show the agent gets it right reliably, and keep anything irreversible — sending, paying, deleting — at level 2 for longest.</p>
+<h2>Guardrails</h2>
+<p>Guardrails are the limits you build around the loop so that a mistake stays small:</p>
+<ul>
+<li><strong>Narrow tools.</strong> Give only the actions the job needs, read-only where possible.</li>
+<li><strong>Approval points.</strong> Name the steps that always need a person, and make the agent stop there.</li>
+<li><strong>Budgets.</strong> A maximum number of steps, minutes or cost per job, so a confused agent cannot loop forever.</li>
+<li><strong>A log.</strong> A written record of every step, tool call and result. It is how you find out what went wrong, and how you prove to a client what was done.</li>
+<li><strong>&quot;Ask when unsure.&quot;</strong> Written into the instructions, and rewarded rather than treated as failure.</li>
+</ul>
+<h2>Where agents still slip</h2>
+<p>Agents are improving fast, but a few weak spots are worth designing around:</p>
+<ul>
+<li><strong>Long tasks drift.</strong> The longer the loop runs, the more chances for a small early mistake to grow.</li>
+<li><strong>They can get stuck,</strong> retrying the same failing step.</li>
+<li><strong>They can be confidently wrong,</strong> just like the model inside them.</li>
+<li><strong>Every pass costs time and money.</strong> An agent that wanders uses more of both.</li>
+</ul>
+<p>The cure for most of these is not a smarter agent but a better-designed piece of work: breaking the job into clear stages, with checks between them. That is the subject of Post 7.</p>
+<h2>Try it on your task</h2>
+<p>Write the goal for your agent in one sentence, starting with a verb: &quot;Process...&quot;, &quot;Prepare...&quot;, &quot;Answer...&quot;. Then choose its starting autonomy level from the table, and list the steps that must always stop for a person.</p>
+5:["$","article",null,{"className":"flex flex-col gap-8","children":[["$","div",null,{"className":"flex flex-col gap-3","children":[["$","$L2",null,{"href":"/","className":"text-sm text-muted hover:text-accent","children":["← Posts"," · AI Agents, Plainly Explained"]}],["$","h1",null,{"className":"text-3xl font-semibold tracking-tight","children":"Post 6 · AI agents: the loop that gets work done"}],["$","time",null,{"dateTime":"2026-10-11","className":"text-sm text-muted","children":"2026-10-11"}]]}],["$","div",null,{"className":"post-body","dangerouslySetInnerHTML":{"__html":"$f"}}],"$L10"]}]
+10:["$","footer",null,{"className":"grid gap-6 border-t border-line pt-6 sm:grid-cols-2","children":[["$","$L2",null,{"href":"/posts/ai-agents-05-skills-and-knowledge/","className":"group flex flex-col gap-1","children":[["$","span",null,{"className":"text-sm text-muted","children":"← Previous"}],["$","span",null,{"className":"text-lg font-medium group-hover:text-accent","children":"Post 5 · Skills and knowledge: giving AI know-how"}]]}],["$","$L2",null,{"href":"/posts/ai-agents-07-agentic-workflows/","className":"group flex flex-col gap-1 sm:text-right","children":[["$","span",null,{"className":"text-sm text-muted","children":["Next in ","AI Agents, Plainly Explained"," →"]}],["$","span",null,{"className":"text-lg font-medium group-hover:text-accent","children":"Post 7 · Agentic workflows: designing the work, not just the worker"}]]}]]}]
+b:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#fcfbf9","media":"(prefers-color-scheme: light)"}],["$","meta","3",{"name":"theme-color","content":"#121110","media":"(prefers-color-scheme: dark)"}]]
+8:null
+d:[["$","title","0",{"children":"Post 6 · AI agents: the loop that gets work done · Quang Huy Nguyen"}],["$","meta","1",{"name":"description","content":"What makes something an agent?"}],["$","meta","2",{"name":"author","content":"Quang Huy Nguyen"}],["$","meta","3",{"name":"creator","content":"Quang Huy Nguyen"}],["$","link","4",{"rel":"canonical","href":"https://levi218.github.io/posts/ai-agents-06-ai-agents/"}],["$","meta","5",{"property":"og:title","content":"Post 6 · AI agents: the loop that gets work done"}],["$","meta","6",{"property":"og:description","content":"What makes something an agent?"}],["$","meta","7",{"property":"og:type","content":"article"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:title","content":"Quang Huy Nguyen"}],["$","meta","10",{"name":"twitter:description","content":"I build small, careful things on the web — and I write about how they were made."}],["$","meta","11",{"name":"twitter:image","content":"https://levi218.github.io/og.png"}]]

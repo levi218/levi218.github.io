@@ -1,0 +1,145 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/3jnihsg-rcdh1.js"],""]
+3:I[39756,["/_next/static/chunks/3jnihsg-rcdh1.js"],"default"]
+4:I[37457,["/_next/static/chunks/3jnihsg-rcdh1.js"],"default"]
+6:I[97367,["/_next/static/chunks/3jnihsg-rcdh1.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+a:I[97367,["/_next/static/chunks/3jnihsg-rcdh1.js"],"ViewportBoundary"]
+c:I[97367,["/_next/static/chunks/3jnihsg-rcdh1.js"],"MetadataBoundary"]
+e:I[68027,["/_next/static/chunks/3jnihsg-rcdh1.js"],"default",1]
+:HL["/_next/static/chunks/1j3kk2u0-jrn5.css","style"]
+:HL["/_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+9:X
+0:{"P":null,"c":["","posts","ai-agents-10-business-models",""],"q":"","i":false,"f":[[["",{"children":["posts",{"children":[["slug","ai-agents-10-business-models","d",[]],{"children":["__PAGE__",{},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4624],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1j3kk2u0-jrn5.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/3jnihsg-rcdh1.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"geist_deef94d5-module__Sms4YG__variable geist_mono_1bf8cbf6-module__FlyLvG__variable font-sans min-h-dvh flex flex-col","children":[["$","a",null,{"href":"#main","className":"sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-50 focus:rounded focus:bg-surface focus:px-3 focus:py-2 focus:text-sm","children":"Skip to content"}],["$","header",null,{"className":"border-b border-line","children":["$","nav",null,{"aria-label":"Main","className":"mx-auto flex max-w-3xl items-center gap-6 px-6 py-4 text-sm","children":[[["$","$L2","/",{"href":"/","className":"hover:text-accent","children":"Home"}],["$","$L2","/projects/",{"href":"/projects/","className":"hover:text-accent","children":"Projects"}],["$","$L2","/about/",{"href":"/about/","className":"hover:text-accent","children":"About"}]],["$","span",null,{"className":"grow"}],null]}]}],["$","main",null,{"id":"main","className":"mx-auto w-full max-w-3xl grow px-6 py-12","children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"flex flex-col gap-4","children":[["$","h1",null,{"className":"text-3xl font-semibold tracking-tight","children":"Not found"}],["$","p",null,{"className":"text-muted","children":"There is nothing at this address."}],["$","p",null,{"className":"flex gap-4 text-sm","children":[["$","$L2",null,{"href":"/","className":"hover:text-accent","children":"Home"}],["$","$L2",null,{"href":"/projects/","className":"hover:text-accent","children":"Projects"}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",null,["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,null]},null,false,"$9"]},null,false,"$9"]},null,false,null],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$e",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1j3kk2u0-jrn5.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"VDGM687Pf0SWUEseeGcYp"}
+9:C
+f:T2cc9,<p><em>About a 12-minute read</em></p>
+<p>Post 9 showed one way to earn from an agent. This post steps back and looks at the companies that are winning right now, to see which business models they use. Unlike the rest of the series, it names real companies, because the numbers are the point. Figures are as reported in 2026 and change quickly.</p>
+<h2>What changed</h2>
+<p>For twenty years the winning model was <em>software as a service</em>: rent a tool per user per month, and the customer&#39;s staff do the work with it. AI agents break that in three ways.</p>
+<ul>
+<li><strong>The work itself became cheap to produce.</strong> When an agent can draft, check and file, the scarce thing is no longer the tool but the finished, trusted result.</li>
+<li><strong>Paying per user stopped making sense.</strong> If an agent removes half the work, a vendor charging per seat earns <em>less</em> as its product gets better. Buyers and vendors both started looking for a different meter.</li>
+<li><strong>Small teams can serve huge markets.</strong> One analysis puts AI-era leaders at roughly $2–6 million of annual revenue per employee, against roughly $0.5 million for the best-known software companies of the last era.</li>
+</ul>
+<p>The result is a simple shift in what is being sold: from tools that help people work, to work that is already done.</p>
+<h2>Seven models that are working</h2>
+<h3>1. The AI-native product with a tiny team</h3>
+<p>A product built around AI from day one, sold by subscription plus usage credits, growing by word of mouth. <strong>Cursor</strong>, an AI coding editor, went from about $100 million in annual recurring revenue in January 2025 to over $2 billion by February 2026. <strong>Lovable</strong>, which lets non-programmers build apps by describing them, reported $400 million of annual revenue in February 2026 with 146 employees — about $2.7 million per person.</p>
+<p><em>Why it works:</em> the product does a job people previously paid a professional for, and each new model release makes it better at no cost to the company. <em>The catch:</em> the biggest AI labs can build the same feature, so these companies race to own the workflow and the user&#39;s habits.</p>
+<h3>2. Pay per outcome</h3>
+<p>The customer pays only when the agent finishes the job. Customer support is where this is most mature. <strong>Sierra</strong> charges around $1.50 per conversation its agent resolves; <strong>Intercom&#39;s Fin</strong> charges $0.99 per resolution on top of its seat plans; <strong>HubSpot</strong> moved its support agent to $0.50 per resolved conversation. For comparison, analysts estimate a resolution handled by a person costs around $10–15.</p>
+<p><em>Why it works:</em> it removes the buyer&#39;s biggest fear — &quot;what if it doesn&#39;t work?&quot; — and the vendor earns more as the agent improves. <em>The catch:</em> both sides must agree exactly what counts as an outcome, and the vendor carries the risk of failure.</p>
+<h3>3. Service as software (AI-native services)</h3>
+<p>Instead of selling a tool to a law firm or an insurance broker, these companies <em>are</em> the law firm or the broker — rebuilt around AI, with people accountable for judgement. Examples include AI-native legal, insurance and healthcare-billing firms. Investors describe them as tapping the client&#39;s labour budget rather than its much smaller software budget: by one widely quoted estimate, businesses spend about six dollars on services for every dollar on software.</p>
+<p><em>Why it works:</em> the client buys a result it already understands, often cheaper and faster than before, and the provider&#39;s cost per job keeps falling as more of the work moves to software. <em>The catch:</em> margins start lower than pure software, and the business still needs licensed, accountable people. This is the model Post 9 teaches.</p>
+<h3>4. Hybrid pricing: a base fee plus a meter</h3>
+<p>A platform fee for access and support, plus usage or outcome charges on top. One 2026 industry survey found hybrid pricing is now the single most common primary model among software companies, at 37%. Most of the companies above actually use a hybrid in practice.</p>
+<p><em>Why it works:</em> the base fee gives predictable revenue; the meter captures value as the client uses more. <em>The catch:</em> clients find it harder to budget, so clear caps and tiers matter.</p>
+<h3>5. Forward-deployed engineering</h3>
+<p>Engineers who sit inside the client&#39;s business and take AI from pilot to production — a model pioneered by Palantir and now copied widely. One major cloud provider launched a $1 billion forward-deployed engineering organisation, and large consultancies have built similar practices.</p>
+<p><em>Why it works:</em> most organisations can buy a model but cannot turn it into a working process alone; the scarce skill is knowing both the technology and the business. <em>The catch:</em> it scales with headcount, so the best firms use it to discover repeatable products.</p>
+<h3>6. The integration layer</h3>
+<p>Companies that make AI safe to connect to real systems: MCP servers, connector platforms, sign-in and permission gateways, audit and monitoring. They usually start with custom projects and grow into products once they see which connectors every client needs.</p>
+<p><em>Why it works:</em> every company adopting agents hits the same wall — security, permissions and reliability — and will pay to get over it. <em>The catch:</em> long enterprise sales, and the big platforms may ship good-enough versions themselves.</p>
+<h3>7. The productised agency</h3>
+<p>Small teams that build and run agents for local and small businesses in fixed packages — set-up plus a monthly care plan. Low barrier to entry and quick to first revenue; growth depends on picking one niche and reusing the same build many times.</p>
+<p><em>Why it works:</em> small businesses want the result but have no one to build or maintain it. <em>The catch:</em> low prices and many clients each wanting changes; the winners turn their most common build into a product.</p>
+<h2>At a glance</h2>
+<table>
+<thead>
+<tr>
+<th>Model</th>
+<th>Sells</th>
+<th>Price meter</th>
+<th>Scales with</th>
+<th>Hardest part</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>AI-native product</td>
+<td>A tool that does a professional&#39;s job</td>
+<td>Subscription + credits</td>
+<td>Users</td>
+<td>Staying ahead of the big labs</td>
+</tr>
+<tr>
+<td>Pay per outcome</td>
+<td>A completed task</td>
+<td>Per resolution, lead, document</td>
+<td>Volume of work</td>
+<td>Defining the outcome</td>
+</tr>
+<tr>
+<td>Service as software</td>
+<td>The finished work</td>
+<td>Per job or subscription</td>
+<td>Software share of the work</td>
+<td>Accountability, early margins</td>
+</tr>
+<tr>
+<td>Hybrid pricing</td>
+<td>Access plus usage</td>
+<td>Base fee + meter</td>
+<td>Both</td>
+<td>Predictable bills for clients</td>
+</tr>
+<tr>
+<td>Forward-deployed engineering</td>
+<td>Getting AI into production</td>
+<td>Day rate or fixed fee</td>
+<td>People</td>
+<td>Turning projects into products</td>
+</tr>
+<tr>
+<td>Integration layer</td>
+<td>Safe connection to systems</td>
+<td>Build fee, then platform fee</td>
+<td>Connected systems</td>
+<td>Security review, long sales</td>
+</tr>
+<tr>
+<td>Productised agency</td>
+<td>A packaged agent, maintained</td>
+<td>Set-up + monthly</td>
+<td>Reused builds</td>
+<td>Churn, endless customisation</td>
+</tr>
+</tbody></table>
+<h2>What the winners share</h2>
+<ul>
+<li><strong>They price the result, not the effort.</strong> Whether per outcome, per job or per subscription tier, the price is compared with what the client paid before — staff hours or an outside provider — not with the cost of running the AI.</li>
+<li><strong>They own one workflow end to end.</strong> The strongest companies are narrow: one job, one industry, done completely. Breadth comes later.</li>
+<li><strong>Their advantage sits outside the model.</strong> Everyone can use the same models. What is hard to copy is the know-how, the test sets, the connections into the client&#39;s systems and the reputation — exactly the list in Post 9.</li>
+<li><strong>People stay accountable.</strong> Even the most automated services keep a qualified person for exceptions and sign-off, and say so openly.</li>
+<li><strong>They expect costs to fall.</strong> Each new model makes the work cheaper, so they set prices on value and let falling costs widen the margin.</li>
+</ul>
+<h2>Where the math breaks</h2>
+<ul>
+<li><strong>Outcome pricing can backfire.</strong> At very high volumes, paying per resolution can cost more than a flat plan would; and contracts can spend more effort defining the outcome than setting the price.</li>
+<li><strong>Big numbers are venture framing.</strong> The trillion-dollar estimates for AI services describe a whole market, not what a small practice can expect.</li>
+<li><strong>Services margins start low.</strong> Early on, review time is the largest cost. Only steady reductions in exceptions make the model behave like software.</li>
+<li><strong>Fast growth can be fragile.</strong> Products that ride one capability can lose users quickly when the big platforms add the same feature.</li>
+</ul>
+<h2>Try it on your task</h2>
+<p>Take the offer you wrote at the end of Post 9 and ask three questions. What would you charge if the client paid only when the job is done? Which part of the work could you package once and sell to many clients — a skill pack, a connector, a service? And who in your network would pay to have you sit with their team and get it running? Your answers usually point to two of the seven models: one to start with, and one to grow into.</p>
+<h2>Sources</h2>
+<ul>
+<li><a href="https://www.opus.pro/blog/hottest-ai-startups-2026">Opus – the hottest AI startups of 2026</a> (Cursor growth)</li>
+<li><a href="https://ecosistemastartup.com/?p=67019">TechCrunch via Ecosistema Startup – Lovable at $400M ARR with 146 employees</a></li>
+<li><a href="https://seanmcdade.substack.com/p/seans-ai-signal-issue-17">Sean&#39;s AI Signal – revenue per employee</a></li>
+<li><a href="https://sacra.com/chat/h/01b9fc2f-d9e0-4494-9f3f-82cb6ff81150/">Sacra – Sierra&#39;s per-resolution model</a> · <a href="https://sacra.com/chat/h/ea6794a1-b8c6-4d1b-998d-0f9297e7fd59/">Sacra – Intercom per resolution</a></li>
+<li><a href="https://www.saastr.com/hubspot-switching-ai-pricing-from-per-use-to-per-resolution-but-does-it-really-matter/">SaaStr – HubSpot moves to per-resolution pricing</a></li>
+<li><a href="https://aiagentrank.io/blog/outcome-based-pricing-in-ai-2026">AI Agent Rank – outcome-based pricing in 2026</a></li>
+<li><a href="https://www.emcap.com/thoughts/why-ai-native-services-and-why-now">Emergence Capital – why AI-native services, and why now</a></li>
+<li><a href="https://www.wellington.com/en-us/intermediary/insights/ai-native-services">Wellington – the next great AI companies may look like services companies</a></li>
+<li><a href="https://automatonagency.com/insights/service-as-software">Automaton – service as software</a></li>
+<li><a href="https://brocoders.com/blog/what-is-a-saas/">Brocoders – 2026 SaaS pricing trends</a></li>
+<li><a href="https://ecosistemastartup.com/?p=103965">Ecosistema Startup – forward-deployed engineering</a></li>
+<li><a href="https://aibusiness.vc/startups/mcp-servers-business-opportunity">aibusiness.vc – MCP servers in 2026</a></li>
+</ul>
+5:["$","article",null,{"className":"flex flex-col gap-8","children":[["$","div",null,{"className":"flex flex-col gap-3","children":[["$","$L2",null,{"href":"/","className":"text-sm text-muted hover:text-accent","children":["← Posts"," · AI Agents, Plainly Explained"]}],["$","h1",null,{"className":"text-3xl font-semibold tracking-tight","children":"Post 10 · Business models that work in the AI era"}],["$","time",null,{"dateTime":"2026-10-11","className":"text-sm text-muted","children":"2026-10-11"}]]}],["$","div",null,{"className":"post-body","dangerouslySetInnerHTML":{"__html":"$f"}}],"$L10"]}]
+10:["$","footer",null,{"className":"grid gap-6 border-t border-line pt-6 sm:grid-cols-2","children":[["$","$L2",null,{"href":"/posts/ai-agents-09-sell-it-as-a-service/","className":"group flex flex-col gap-1","children":[["$","span",null,{"className":"text-sm text-muted","children":"← Previous"}],["$","span",null,{"className":"text-lg font-medium group-hover:text-accent","children":"Post 9 · From agent to business: selling an AI-powered service"}]]}],["$","$L2",null,{"href":"/posts/ai-agents-11-glossary/","className":"group flex flex-col gap-1 sm:text-right","children":[["$","span",null,{"className":"text-sm text-muted","children":["Next in ","AI Agents, Plainly Explained"," →"]}],["$","span",null,{"className":"text-lg font-medium group-hover:text-accent","children":"Glossary"}]]}]]}]
+b:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#fcfbf9","media":"(prefers-color-scheme: light)"}],["$","meta","3",{"name":"theme-color","content":"#121110","media":"(prefers-color-scheme: dark)"}]]
+8:null
+d:[["$","title","0",{"children":"Post 10 · Business models that work in the AI era · Quang Huy Nguyen"}],["$","meta","1",{"name":"description","content":"Which AI business models are actually working?"}],["$","meta","2",{"name":"author","content":"Quang Huy Nguyen"}],["$","meta","3",{"name":"creator","content":"Quang Huy Nguyen"}],["$","link","4",{"rel":"canonical","href":"https://levi218.github.io/posts/ai-agents-10-business-models/"}],["$","meta","5",{"property":"og:title","content":"Post 10 · Business models that work in the AI era"}],["$","meta","6",{"property":"og:description","content":"Which AI business models are actually working?"}],["$","meta","7",{"property":"og:type","content":"article"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:title","content":"Quang Huy Nguyen"}],["$","meta","10",{"name":"twitter:description","content":"I build small, careful things on the web — and I write about how they were made."}],["$","meta","11",{"name":"twitter:image","content":"https://levi218.github.io/og.png"}]]

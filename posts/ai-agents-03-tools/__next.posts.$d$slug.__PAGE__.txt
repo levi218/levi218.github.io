@@ -1,0 +1,97 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/3jnihsg-rcdh1.js"],""]
+3:T238f,<p><em>About a 6-minute read</em></p>
+<p>A model can only write text. A <strong>tool</strong> is how that text turns into action: the model writes a request — &quot;look up client 1042&#39;s invoices&quot; — and the software around it carries the request out and hands back the result.</p>
+<h2>A brain with no hands</h2>
+<p>On its own, a model cannot open your spreadsheet, check today&#39;s exchange rate or send an email. It can only describe what it would do. Tools close that gap.</p>
+<p>Think of a capable manager who works by phone from a room with no computer. They cannot touch the files, but they can say &quot;pull up the March invoices&quot; or &quot;email the client&quot;, and an assistant outside the room does it and reads back what happened. The model is the manager. The software around it — the app, or later the agent — is the assistant with the keyboard.</p>
+<h2>What a tool actually is</h2>
+<p>A tool is a single, clearly labelled action, described in plain words so the model knows when to use it. Each one has three parts:</p>
+<ul>
+<li><strong>A name</strong> — for example, &quot;look up invoices&quot;.</li>
+<li><strong>A description</strong> — what it does, when to use it and what it returns.</li>
+<li><strong>Inputs</strong> — what it needs to run, such as a client number and a month.</li>
+</ul>
+<p>The model is handed the whole list at the start, like a menu. It reads the descriptions and decides which item, if any, the current step needs. That is why a clear tool description matters as much as a clear instruction: a vague label gets picked at the wrong moment, or never.</p>
+<p>Common tools include web search, reading and writing files, a calculator, a calendar, email, a database or accounting system lookup, and running a small piece of code.</p>
+<h2>How one tool call works</h2>
+<figure class="diagram"><svg viewBox="0 0 760 436" role="img" aria-label="The model only asks; the app carries out the action" font-size="13"><defs><marker id="tool-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--cds-chart-axis)"></path></marker><marker id="tool-arrow-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--cds-chart-categorical-1)"></path></marker></defs><text x="24" y="34" font-size="15" font-weight="600" fill="var(--cds-text-primary)">The model only asks; the app carries out the action</text><g stroke="var(--cds-chart-grid)" stroke-width="1" stroke-dasharray="4 4"><line x1="96" x2="96" y1="92" y2="412"></line><line x1="285" x2="285" y1="92" y2="412"></line><line x1="475" x2="475" y1="92" y2="412"></line><line x1="664" x2="664" y1="92" y2="412"></line></g><g><rect x="26" y="56" width="140" height="36" rx="8" fill="none" fill-opacity="1" stroke="var(--cds-chart-axis)" stroke-width="1.25"></rect><text x="96" y="79" text-anchor="middle" font-weight="600" fill="var(--cds-text-primary)">You</text></g><g><rect x="215" y="56" width="140" height="36" rx="8" fill="none" fill-opacity="1" stroke="var(--cds-chart-axis)" stroke-width="1.25"></rect><text x="285" y="79" text-anchor="middle" font-weight="600" fill="var(--cds-text-primary)">The app</text></g><g><rect x="405" y="56" width="140" height="36" rx="8" fill="var(--cds-chart-categorical-1)" fill-opacity="0.12" stroke="var(--cds-chart-categorical-1)" stroke-width="2"></rect><text x="475" y="79" text-anchor="middle" font-weight="600" fill="var(--cds-text-primary)">The model</text></g><g><rect x="594" y="56" width="140" height="36" rx="8" fill="none" fill-opacity="1" stroke="var(--cds-chart-axis)" stroke-width="1.25"></rect><text x="664" y="79" text-anchor="middle" font-weight="600" fill="var(--cds-text-primary)">Tool / your system</text></g><g><path d="M96 128H285" stroke="var(--cds-chart-axis)" stroke-width="1.25" fill="none" marker-end="url(#tool-arrow)"></path><path d="M285 168H475" stroke="var(--cds-chart-axis)" stroke-width="1.25" fill="none" marker-end="url(#tool-arrow)"></path><path d="M475 208H285" stroke="var(--cds-chart-categorical-1)" stroke-width="2" fill="none" marker-end="url(#tool-arrow-accent)"></path><path d="M285 248H664" stroke="var(--cds-chart-axis)" stroke-width="1.25" fill="none" marker-end="url(#tool-arrow)"></path><path d="M664 288H285" stroke="var(--cds-chart-axis)" stroke-width="1.25" fill="none" marker-end="url(#tool-arrow)"></path><path d="M285 328H475" stroke="var(--cds-chart-axis)" stroke-width="1.25" fill="none" marker-end="url(#tool-arrow)"></path><path d="M475 368H285" stroke="var(--cds-chart-axis)" stroke-width="1.25" fill="none" marker-end="url(#tool-arrow)"></path><path d="M285 408H96" stroke="var(--cds-chart-axis)" stroke-width="1.25" fill="none" marker-end="url(#tool-arrow)"></path></g><text x="190.5" y="120" text-anchor="middle" font-size="11.5" fill="var(--cds-text-primary)">1. “What did client 1042 owe?”</text><text x="380" y="160" text-anchor="middle" font-size="11.5" fill="var(--cds-text-primary)">2. question + tool menu</text><text x="380" y="200" text-anchor="middle" font-size="11.5" font-weight="600" fill="var(--cds-text-primary)">3. “Use invoice lookup, 1042”</text><text x="569.5" y="240" text-anchor="middle" font-size="11.5" fill="var(--cds-text-primary)">4. app runs the lookup</text><text x="569.5" y="280" text-anchor="middle" font-size="11.5" fill="var(--cds-text-primary)">5. the invoice data</text><text x="380" y="320" text-anchor="middle" font-size="11.5" fill="var(--cds-text-primary)">6. result put on the desk</text><text x="380" y="360" text-anchor="middle" font-size="11.5" fill="var(--cds-text-primary)">7. written answer</text><text x="190.5" y="400" text-anchor="middle" font-size="11.5" fill="var(--cds-text-primary)">8. answer on screen</text></svg></figure><p>The important moment is step 3. The model does not run anything itself: it writes a structured request, and the app decides whether to carry it out. The result then goes back on the model&#39;s desk (Post 2), and the model either answers or asks for another tool. A single question can involve several rounds of this.</p>
+<p>This split is what makes tools safe enough for business. The app can refuse a request, ask a person to approve it first, or limit which records the model may see.</p>
+<h2>Not all tools carry the same risk</h2>
+<table>
+<thead>
+<tr>
+<th>Kind of tool</th>
+<th>Examples</th>
+<th>What can go wrong</th>
+<th>Usual safeguard</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Read and look up</td>
+<td>Search, read a file, check stock, look up a client</td>
+<td>Little; at worst it reads the wrong thing</td>
+<td>None beyond access limits</td>
+</tr>
+<tr>
+<td>Calculate and convert</td>
+<td>Calculator, currency rate, make a chart</td>
+<td>A wrong input gives a wrong number</td>
+<td>Show the inputs used</td>
+</tr>
+<tr>
+<td>Create and change</td>
+<td>Write a spreadsheet row, draft an email, create an invoice</td>
+<td>A wrong record is saved</td>
+<td>Easy undo, or a person reviews a batch</td>
+</tr>
+<tr>
+<td>Send, pay, delete</td>
+<td>Email a client, make a payment, delete records</td>
+<td>Cannot be taken back</td>
+<td>A person approves each one</td>
+</tr>
+</tbody></table>
+<p>A useful rule: the harder an action is to undo, the closer a person should stand to it. Many successful agents can read almost anything but can only <em>draft</em> the actions that leave the building.</p>
+<h2>Tools also reduce hallucination</h2>
+<p>Remember the weaknesses in Post 1: arithmetic, recent facts, private information. Tools fix all three. Instead of guessing a total, the model calls a calculator. Instead of recalling an exchange rate from training, it looks today&#39;s rate up. Instead of inventing a client&#39;s address, it reads it from your records.</p>
+<p>When you design an agent, a good habit is to ask of every fact it needs: should the model <em>know</em> this, or should it <em>look it up</em>? Anything that changes, or anything that must be exact, should be looked up.</p>
+<h2>Linh lists her tools</h2>
+<p>Linh walks through her receipt process and writes down every action a person takes. Her list:</p>
+<ul>
+<li><strong>Read</strong> new receipts from the client&#39;s email or shared folder.</li>
+<li><strong>Look up</strong> the client&#39;s own category list and tax settings.</li>
+<li><strong>Calculate</strong> totals and convert foreign-currency receipts at the official rate.</li>
+<li><strong>Write</strong> one row per receipt into the client&#39;s expense spreadsheet.</li>
+<li><strong>Draft</strong> an email to the client listing receipts that are missing or unreadable.</li>
+</ul>
+<p>She marks the last one &quot;draft only&quot;: a person on her team will press Send. Everything else is either reading or easy to undo.</p>
+<h2>Try it on your task</h2>
+<p>For the task you have been following, list every action a person takes in a system: opening, searching, calculating, writing, sending. Label each one Read, Calculate, Change or Send. The Send items are where you will place a human check in Post 7.</p>
+7:X
+c:X
+c:C
+0:{"buildId":"VDGM687Pf0SWUEseeGcYp","data":[{"rsc":["$","$1","c",{"children":[["$","article",null,{"className":"flex flex-col gap-8","children":[["$","div",null,{"className":"flex flex-col gap-3","children":[["$","$L2",null,{"href":"/","className":"text-sm text-muted hover:text-accent","children":["← Posts"," · AI Agents, Plainly Explained"]}],["$","h1",null,{"className":"text-3xl font-semibold tracking-tight","children":"Post 3 · Tools: giving AI hands"}],["$","time",null,{"dateTime":"2026-10-11","className":"text-sm text-muted","children":"2026-10-11"}]]}],["$","div",null,{"className":"post-body","dangerouslySetInnerHTML":{"__html":"$3"}}],"$L4"]}],null,"$L5"]}],"isPartial":"$@6","staleTime":"$7","varyParams":null},{"rsc":"$L8","isPartial":"$@9","staleTime":"$7","varyParams":null},{"rsc":"$La","isPartial":"$@b","staleTime":"$7","varyParams":"$c"},{"rsc":"$Ld","isPartial":"$@e","staleTime":"$7","varyParams":"$c"},{"rsc":"$Lf","isPartial":"$@10","staleTime":"$7","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@11","rootVaryParams":null,"needsRuntimeRequest":"$@12"}
+13:I[97367,["/_next/static/chunks/3jnihsg-rcdh1.js"],"OutletBoundary"]
+14:"$Sreact.suspense"
+16:I[97367,["/_next/static/chunks/3jnihsg-rcdh1.js"],"ViewportBoundary"]
+17:I[97367,["/_next/static/chunks/3jnihsg-rcdh1.js"],"MetadataBoundary"]
+18:I[39756,["/_next/static/chunks/3jnihsg-rcdh1.js"],"default"]
+19:I[37457,["/_next/static/chunks/3jnihsg-rcdh1.js"],"default"]
+:HL["/_next/static/chunks/1j3kk2u0-jrn5.css","style"]
+4:["$","footer",null,{"className":"grid gap-6 border-t border-line pt-6 sm:grid-cols-2","children":[["$","$L2",null,{"href":"/posts/ai-agents-02-prompts-context-memory/","className":"group flex flex-col gap-1","children":[["$","span",null,{"className":"text-sm text-muted","children":"← Previous"}],["$","span",null,{"className":"text-lg font-medium group-hover:text-accent","children":"Post 2 · Prompts, context and memory"}]]}],["$","$L2",null,{"href":"/posts/ai-agents-04-mcp/","className":"group flex flex-col gap-1 sm:text-right","children":[["$","span",null,{"className":"text-sm text-muted","children":["Next in ","AI Agents, Plainly Explained"," →"]}],["$","span",null,{"className":"text-lg font-medium group-hover:text-accent","children":"Post 4 · MCP: one plug for every tool"}]]}]]}]
+5:["$","$L13",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@15"}]}]
+8:["$","$1","h",{"children":[null,["$","$L16",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#fcfbf9","media":"(prefers-color-scheme: light)"}],["$","meta","3",{"name":"theme-color","content":"#121110","media":"(prefers-color-scheme: dark)"}]]}],["$","div",null,{"hidden":true,"children":["$","$L17",null,{"children":["$","$14",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Post 3 · Tools: giving AI hands · Quang Huy Nguyen"}],["$","meta","1",{"name":"description","content":"How does a model that only writes text get anything done?"}],["$","meta","2",{"name":"author","content":"Quang Huy Nguyen"}],["$","meta","3",{"name":"creator","content":"Quang Huy Nguyen"}],["$","link","4",{"rel":"canonical","href":"https://levi218.github.io/posts/ai-agents-03-tools/"}],["$","meta","5",{"property":"og:title","content":"Post 3 · Tools: giving AI hands"}],["$","meta","6",{"property":"og:description","content":"How does a model that only writes text get anything done?"}],["$","meta","7",{"property":"og:type","content":"article"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:title","content":"Quang Huy Nguyen"}],["$","meta","10",{"name":"twitter:description","content":"I build small, careful things on the web — and I write about how they were made."}],["$","meta","11",{"name":"twitter:image","content":"https://levi218.github.io/og.png"}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+a:["$","$1","c",{"children":[null,["$","$L18",null,{"parallelRouterKey":"children","template":["$","$L19",null,{}]}]]}]
+d:["$","$1","c",{"children":[null,["$","$L18",null,{"parallelRouterKey":"children","template":["$","$L19",null,{}]}]]}]
+f:["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1j3kk2u0-jrn5.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/3jnihsg-rcdh1.js","async":true}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"geist_deef94d5-module__Sms4YG__variable geist_mono_1bf8cbf6-module__FlyLvG__variable font-sans min-h-dvh flex flex-col","children":[["$","a",null,{"href":"#main","className":"sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-50 focus:rounded focus:bg-surface focus:px-3 focus:py-2 focus:text-sm","children":"Skip to content"}],["$","header",null,{"className":"border-b border-line","children":["$","nav",null,{"aria-label":"Main","className":"mx-auto flex max-w-3xl items-center gap-6 px-6 py-4 text-sm","children":[[["$","$L2","/",{"href":"/","className":"hover:text-accent","children":"Home"}],["$","$L2","/projects/",{"href":"/projects/","className":"hover:text-accent","children":"Projects"}],["$","$L2","/about/",{"href":"/about/","className":"hover:text-accent","children":"About"}]],["$","span",null,{"className":"grow"}],null]}]}],["$","main",null,{"id":"main","className":"mx-auto w-full max-w-3xl grow px-6 py-12","children":["$","$L18",null,{"parallelRouterKey":"children","template":["$","$L19",null,{}],"notFound":[["$","div",null,{"className":"flex flex-col gap-4","children":[["$","h1",null,{"className":"text-3xl font-semibold tracking-tight","children":"Not found"}],["$","p",null,{"className":"text-muted","children":"There is nothing at this address."}],["$","p",null,{"className":"flex gap-4 text-sm","children":[["$","$L2",null,{"href":"/","className":"hover:text-accent","children":"Home"}],["$","$L2",null,{"href":"/projects/","className":"hover:text-accent","children":"Projects"}]]}]]}],[]]}]}]]}]}]]}]
+15:null
+12:true
+7:300
+7:C
+11:0
+9:"$undefined"
+b:"$undefined"
+e:"$undefined"
+10:"$undefined"
+6:"$undefined"

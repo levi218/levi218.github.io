@@ -1,0 +1,99 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/3jnihsg-rcdh1.js"],""]
+3:I[39756,["/_next/static/chunks/3jnihsg-rcdh1.js"],"default"]
+4:I[37457,["/_next/static/chunks/3jnihsg-rcdh1.js"],"default"]
+6:I[97367,["/_next/static/chunks/3jnihsg-rcdh1.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+a:I[97367,["/_next/static/chunks/3jnihsg-rcdh1.js"],"ViewportBoundary"]
+c:I[97367,["/_next/static/chunks/3jnihsg-rcdh1.js"],"MetadataBoundary"]
+e:I[68027,["/_next/static/chunks/3jnihsg-rcdh1.js"],"default",1]
+:HL["/_next/static/chunks/1j3kk2u0-jrn5.css","style"]
+:HL["/_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+9:X
+0:{"P":null,"c":["","posts","ai-agents-00-start-here",""],"q":"","i":false,"f":[[["",{"children":["posts",{"children":[["slug","ai-agents-00-start-here","d",[]],{"children":["__PAGE__",{},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4624],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1j3kk2u0-jrn5.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/3jnihsg-rcdh1.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"geist_deef94d5-module__Sms4YG__variable geist_mono_1bf8cbf6-module__FlyLvG__variable font-sans min-h-dvh flex flex-col","children":[["$","a",null,{"href":"#main","className":"sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-50 focus:rounded focus:bg-surface focus:px-3 focus:py-2 focus:text-sm","children":"Skip to content"}],["$","header",null,{"className":"border-b border-line","children":["$","nav",null,{"aria-label":"Main","className":"mx-auto flex max-w-3xl items-center gap-6 px-6 py-4 text-sm","children":[[["$","$L2","/",{"href":"/","className":"hover:text-accent","children":"Home"}],["$","$L2","/projects/",{"href":"/projects/","className":"hover:text-accent","children":"Projects"}],["$","$L2","/about/",{"href":"/about/","className":"hover:text-accent","children":"About"}]],["$","span",null,{"className":"grow"}],null]}]}],["$","main",null,{"id":"main","className":"mx-auto w-full max-w-3xl grow px-6 py-12","children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"flex flex-col gap-4","children":[["$","h1",null,{"className":"text-3xl font-semibold tracking-tight","children":"Not found"}],["$","p",null,{"className":"text-muted","children":"There is nothing at this address."}],["$","p",null,{"className":"flex gap-4 text-sm","children":[["$","$L2",null,{"href":"/","className":"hover:text-accent","children":"Home"}],["$","$L2",null,{"href":"/projects/","className":"hover:text-accent","children":"Projects"}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",null,["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,null]},null,false,"$9"]},null,false,"$9"]},null,false,null],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$e",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1j3kk2u0-jrn5.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"VDGM687Pf0SWUEseeGcYp"}
+9:C
+f:T25c9,<h2>Who this is for</h2>
+<p>This short series takes you from &quot;what is AI, really?&quot; to a real service you can sell, with an AI helper doing the heavy lifting. Each one is a 5 to 10 minute read, written for people who run a business or a practice, not for programmers.</p>
+<p>By the end you will be able to:</p>
+<ul>
+<li><strong>Explain the vocabulary</strong> — AI, LLM, prompt, context, tools, MCP, skills, agents, agentic workflows — in your own words, to a client or a colleague.</li>
+<li><strong>Sketch an agent</strong> for one specific task in your work: what it reads, what it can do, what it knows, and where a person checks its output.</li>
+<li><strong>Shape a service</strong> around that agent: what you sell, how it is delivered, how you price it and how you earn a client&#39;s trust.</li>
+</ul>
+<p>The series stays away from brand names and from engineering detail. Where an idea has a shape — a loop, a flow, a hierarchy — it is drawn rather than described.</p>
+<p><strong>One example runs through every post.</strong> Linh is an accountant with a small practice. Each month her clients send her a pile of receipts and invoices, and her team types them into spreadsheets, sorts them into categories and chases the missing ones. She wants to turn that chore into a service she can sell to many more small businesses, with an AI agent doing most of the work and her team checking it. We follow her from first idea to first paying client.</p>
+<h2>The reading path</h2>
+<figure class="diagram"><svg viewBox="0 0 760 440" role="img" aria-label="Five building blocks become an agent, a workflow, then a business" font-size="13"><defs><marker id="path-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--cds-chart-axis)"></path></marker></defs><text x="24" y="34" font-size="15" font-weight="600" fill="var(--cds-text-primary)">Five building blocks become an agent, a workflow, then a business</text><g><rect x="24" y="52" width="712" height="124" rx="8" fill="var(--cds-chart-reference-tint)" stroke="var(--cds-chart-axis)" stroke-width="1"></rect><text x="40" y="74" font-weight="600" fill="var(--cds-text-primary)">Posts 1 to 5 · the building blocks</text></g><g><rect x="40" y="88" width="123" height="72" rx="8" fill="none" fill-opacity="1" stroke="var(--cds-chart-axis)" stroke-width="1.25"></rect><text x="101.5" y="112" text-anchor="middle" font-weight="600" fill="var(--cds-text-primary)">1 · The model</text><text x="101.5" y="130" text-anchor="middle" font-size="11.5" fill="var(--cds-text-secondary)">the brain that</text><text x="101.5" y="146" text-anchor="middle" font-size="11.5" fill="var(--cds-text-secondary)">writes text</text></g><g><rect x="179.2" y="88" width="123" height="72" rx="8" fill="none" fill-opacity="1" stroke="var(--cds-chart-axis)" stroke-width="1.25"></rect><text x="240.7" y="112" text-anchor="middle" font-weight="600" fill="var(--cds-text-primary)">2 · Context</text><text x="240.7" y="130" text-anchor="middle" font-size="11.5" fill="var(--cds-text-secondary)">what it sees</text><text x="240.7" y="146" text-anchor="middle" font-size="11.5" fill="var(--cds-text-secondary)">on each turn</text></g><g><rect x="318.4" y="88" width="123" height="72" rx="8" fill="none" fill-opacity="1" stroke="var(--cds-chart-axis)" stroke-width="1.25"></rect><text x="379.9" y="112" text-anchor="middle" font-weight="600" fill="var(--cds-text-primary)">3 · Tools</text><text x="379.9" y="130" text-anchor="middle" font-size="11.5" fill="var(--cds-text-secondary)">actions it</text><text x="379.9" y="146" text-anchor="middle" font-size="11.5" fill="var(--cds-text-secondary)">can take</text></g><g><rect x="457.59999999999997" y="88" width="123" height="72" rx="8" fill="none" fill-opacity="1" stroke="var(--cds-chart-axis)" stroke-width="1.25"></rect><text x="519.0999999999999" y="112" text-anchor="middle" font-weight="600" fill="var(--cds-text-primary)">4 · MCP</text><text x="519.0999999999999" y="130" text-anchor="middle" font-size="11.5" fill="var(--cds-text-secondary)">a standard plug</text><text x="519.0999999999999" y="146" text-anchor="middle" font-size="11.5" fill="var(--cds-text-secondary)">for tools</text></g><g><rect x="596.8" y="88" width="123" height="72" rx="8" fill="none" fill-opacity="1" stroke="var(--cds-chart-axis)" stroke-width="1.25"></rect><text x="658.3" y="112" text-anchor="middle" font-weight="600" fill="var(--cds-text-primary)">5 · Know-how</text><text x="658.3" y="130" text-anchor="middle" font-size="11.5" fill="var(--cds-text-secondary)">skills and</text><text x="658.3" y="146" text-anchor="middle" font-size="11.5" fill="var(--cds-text-secondary)">your documents</text></g><g fill="none" stroke="var(--cds-chart-axis)" stroke-width="1.25"><path d="M380 176V200" marker-end="url(#path-arrow)"></path><path d="M380 256V280" marker-end="url(#path-arrow)"></path><path d="M380 336V348H140V360" marker-end="url(#path-arrow)"></path><path d="M240 388H280" marker-end="url(#path-arrow)"></path><path d="M480 388H520" marker-end="url(#path-arrow)"></path></g><g><rect x="210" y="200" width="340" height="56" rx="8" fill="none" fill-opacity="1" stroke="var(--cds-chart-axis)" stroke-width="1.25"></rect><text x="380" y="224" text-anchor="middle" font-weight="600" fill="var(--cds-text-primary)">6 · The agent</text><text x="380" y="242" text-anchor="middle" font-size="11.5" fill="var(--cds-text-secondary)">model + tools + know-how, working in a loop</text></g><g><rect x="210" y="280" width="340" height="56" rx="8" fill="none" fill-opacity="1" stroke="var(--cds-chart-axis)" stroke-width="1.25"></rect><text x="380" y="304" text-anchor="middle" font-weight="600" fill="var(--cds-text-primary)">7 · Agentic workflow</text><text x="380" y="322" text-anchor="middle" font-size="11.5" fill="var(--cds-text-secondary)">steps, agents and people, arranged</text></g><g><rect x="40" y="360" width="200" height="56" rx="8" fill="none" fill-opacity="1" stroke="var(--cds-chart-axis)" stroke-width="1.25"></rect><text x="140" y="384" text-anchor="middle" font-weight="600" fill="var(--cds-text-primary)">8 · Build it</text><text x="140" y="402" text-anchor="middle" font-size="11.5" fill="var(--cds-text-secondary)">from one task to a pilot</text></g><g><rect x="280" y="360" width="200" height="56" rx="8" fill="var(--cds-chart-categorical-1)" fill-opacity="0.12" stroke="var(--cds-chart-categorical-1)" stroke-width="2"></rect><text x="380" y="384" text-anchor="middle" font-weight="600" fill="var(--cds-text-primary)">9 · Sell it</text><text x="380" y="402" text-anchor="middle" font-size="11.5" fill="var(--cds-text-secondary)">package it as a service</text></g><g><rect x="520" y="360" width="200" height="56" rx="8" fill="none" fill-opacity="1" stroke="var(--cds-chart-axis)" stroke-width="1.25"></rect><text x="620" y="384" text-anchor="middle" font-weight="600" fill="var(--cds-text-primary)">10 · Grow it</text><text x="620" y="402" text-anchor="middle" font-size="11.5" fill="var(--cds-text-secondary)">business models that work</text></g></svg></figure><p>Posts 1 to 5 each add one ingredient. Post 6 combines them into an agent, Post 7 arranges agents and people into a workflow, Posts 8 and 9 build it and sell it, and Post 10 looks at the business models that are working.</p>
+<h2>How to use the series</h2>
+<p>Read the posts in order the first time: each one uses the words the earlier ones explained. After that, the glossary is the quickest way back to a term.</p>
+<table>
+<thead>
+<tr>
+<th>Post</th>
+<th>The question it answers</th>
+<th>Read time</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="/posts/ai-agents-01-what-ai-and-llms-are">1 · What AI and LLMs are</a></td>
+<td>What is AI, and what is a large language model?</td>
+<td>7 min</td>
+</tr>
+<tr>
+<td><a href="/posts/ai-agents-02-prompts-context-memory">2 · Prompts, context, memory</a></td>
+<td>What does the model actually see, and why does it forget?</td>
+<td>7 min</td>
+</tr>
+<tr>
+<td><a href="/posts/ai-agents-03-tools">3 · Tools</a></td>
+<td>How does a model that only writes text get anything done?</td>
+<td>6 min</td>
+</tr>
+<tr>
+<td><a href="/posts/ai-agents-04-mcp">4 · MCP</a></td>
+<td>Why does everyone talk about MCP?</td>
+<td>6 min</td>
+</tr>
+<tr>
+<td><a href="/posts/ai-agents-05-skills-and-knowledge">5 · Skills and knowledge</a></td>
+<td>How do I give AI my know-how and my documents?</td>
+<td>7 min</td>
+</tr>
+<tr>
+<td><a href="/posts/ai-agents-06-ai-agents">6 · AI agents</a></td>
+<td>What makes something an agent?</td>
+<td>8 min</td>
+</tr>
+<tr>
+<td><a href="/posts/ai-agents-07-agentic-workflows">7 · Agentic workflows</a></td>
+<td>How do I design the whole piece of work, not just one step?</td>
+<td>8 min</td>
+</tr>
+<tr>
+<td><a href="/posts/ai-agents-08-build-your-first-agent">8 · Build your first agent</a></td>
+<td>What are the steps to build an agent for my task?</td>
+<td>9 min</td>
+</tr>
+<tr>
+<td><a href="/posts/ai-agents-09-sell-it-as-a-service">9 · Sell it as a service</a></td>
+<td>How do I turn it into a service people pay for?</td>
+<td>15 min</td>
+</tr>
+<tr>
+<td><a href="/posts/ai-agents-10-business-models">10 · Business models of the AI era</a></td>
+<td>Which AI business models are actually working?</td>
+<td>12 min</td>
+</tr>
+<tr>
+<td><a href="/posts/ai-agents-11-glossary">Glossary</a></td>
+<td>Every term in one sentence</td>
+<td>reference</td>
+</tr>
+</tbody></table>
+<p>A tip for reading: keep one task from your own work in mind. Each post ends with a short &quot;Try it on your task&quot; prompt, and by Post 8 those answers add up to a design for your own agent.</p>
+5:["$","article",null,{"className":"flex flex-col gap-8","children":[["$","div",null,{"className":"flex flex-col gap-3","children":[["$","$L2",null,{"href":"/","className":"text-sm text-muted hover:text-accent","children":["← Posts"," · AI Agents, Plainly Explained"]}],["$","h1",null,{"className":"text-3xl font-semibold tracking-tight","children":"Start here"}],["$","time",null,{"dateTime":"2026-10-11","className":"text-sm text-muted","children":"2026-10-11"}]]}],["$","div",null,{"className":"post-body","dangerouslySetInnerHTML":{"__html":"$f"}}],"$L10"]}]
+10:["$","footer",null,{"className":"grid gap-6 border-t border-line pt-6 sm:grid-cols-2","children":[["$","span",null,{"className":"hidden sm:block"}],["$","$L2",null,{"href":"/posts/ai-agents-01-what-ai-and-llms-are/","className":"group flex flex-col gap-1 sm:text-right","children":[["$","span",null,{"className":"text-sm text-muted","children":["Next in ","AI Agents, Plainly Explained"," →"]}],["$","span",null,{"className":"text-lg font-medium group-hover:text-accent","children":"Post 1 · What AI and LLMs actually are"}]]}]]}]
+b:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#fcfbf9","media":"(prefers-color-scheme: light)"}],["$","meta","3",{"name":"theme-color","content":"#121110","media":"(prefers-color-scheme: dark)"}]]
+8:null
+d:[["$","title","0",{"children":"Start here · Quang Huy Nguyen"}],["$","meta","1",{"name":"description","content":"A reading series for non-technical builders, from \"what is AI, really?\" to a service you can sell."}],["$","meta","2",{"name":"author","content":"Quang Huy Nguyen"}],["$","meta","3",{"name":"creator","content":"Quang Huy Nguyen"}],["$","link","4",{"rel":"canonical","href":"https://levi218.github.io/posts/ai-agents-00-start-here/"}],["$","meta","5",{"property":"og:title","content":"Start here"}],["$","meta","6",{"property":"og:description","content":"A reading series for non-technical builders, from \"what is AI, really?\" to a service you can sell."}],["$","meta","7",{"property":"og:type","content":"article"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:title","content":"Quang Huy Nguyen"}],["$","meta","10",{"name":"twitter:description","content":"I build small, careful things on the web — and I write about how they were made."}],["$","meta","11",{"name":"twitter:image","content":"https://levi218.github.io/og.png"}]]

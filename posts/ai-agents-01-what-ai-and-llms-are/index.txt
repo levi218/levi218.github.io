@@ -1,0 +1,84 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/3jnihsg-rcdh1.js"],""]
+3:I[39756,["/_next/static/chunks/3jnihsg-rcdh1.js"],"default"]
+4:I[37457,["/_next/static/chunks/3jnihsg-rcdh1.js"],"default"]
+6:I[97367,["/_next/static/chunks/3jnihsg-rcdh1.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+a:I[97367,["/_next/static/chunks/3jnihsg-rcdh1.js"],"ViewportBoundary"]
+c:I[97367,["/_next/static/chunks/3jnihsg-rcdh1.js"],"MetadataBoundary"]
+e:I[68027,["/_next/static/chunks/3jnihsg-rcdh1.js"],"default",1]
+:HL["/_next/static/chunks/1j3kk2u0-jrn5.css","style"]
+:HL["/_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+9:X
+0:{"P":null,"c":["","posts","ai-agents-01-what-ai-and-llms-are",""],"q":"","i":false,"f":[[["",{"children":["posts",{"children":[["slug","ai-agents-01-what-ai-and-llms-are","d",[]],{"children":["__PAGE__",{},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4624],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1j3kk2u0-jrn5.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/3jnihsg-rcdh1.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"geist_deef94d5-module__Sms4YG__variable geist_mono_1bf8cbf6-module__FlyLvG__variable font-sans min-h-dvh flex flex-col","children":[["$","a",null,{"href":"#main","className":"sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-50 focus:rounded focus:bg-surface focus:px-3 focus:py-2 focus:text-sm","children":"Skip to content"}],["$","header",null,{"className":"border-b border-line","children":["$","nav",null,{"aria-label":"Main","className":"mx-auto flex max-w-3xl items-center gap-6 px-6 py-4 text-sm","children":[[["$","$L2","/",{"href":"/","className":"hover:text-accent","children":"Home"}],["$","$L2","/projects/",{"href":"/projects/","className":"hover:text-accent","children":"Projects"}],["$","$L2","/about/",{"href":"/about/","className":"hover:text-accent","children":"About"}]],["$","span",null,{"className":"grow"}],null]}]}],["$","main",null,{"id":"main","className":"mx-auto w-full max-w-3xl grow px-6 py-12","children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"flex flex-col gap-4","children":[["$","h1",null,{"className":"text-3xl font-semibold tracking-tight","children":"Not found"}],["$","p",null,{"className":"text-muted","children":"There is nothing at this address."}],["$","p",null,{"className":"flex gap-4 text-sm","children":[["$","$L2",null,{"href":"/","className":"hover:text-accent","children":"Home"}],["$","$L2",null,{"href":"/projects/","className":"hover:text-accent","children":"Projects"}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",null,["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,null]},null,false,"$9"]},null,false,"$9"]},null,false,null],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$e",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1j3kk2u0-jrn5.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"VDGM687Pf0SWUEseeGcYp"}
+9:C
+f:T226c,<p><em>About a 7-minute read</em></p>
+<p>A large language model (LLM) is a program that has read an enormous amount of text and learned to continue it: give it some words, and it predicts, remarkably well, what should come next. Almost everything in this series is built on that one ability.</p>
+<h2>AI is a family, not a single thing</h2>
+<p>&quot;AI&quot; is used for everything from a chess program to a chat assistant. It helps to see it as a family of nested ideas, each one a more specific kind of the one around it.</p>
+<figure class="diagram"><svg viewBox="0 0 760 380" role="img" aria-label="Large language models are the most specific branch of AI" font-size="13"><text x="24" y="34" font-size="15" font-weight="600" fill="var(--cds-text-primary)">Large language models are the most specific branch of AI</text><g><rect x="24" y="52" width="712" height="304" rx="8" fill="none" stroke="var(--cds-chart-axis)" stroke-width="1.25"></rect><text x="40" y="76" font-weight="600" fill="var(--cds-text-primary)">Artificial intelligence (AI)</text><text x="40" y="94" font-size="11.5" fill="var(--cds-text-secondary)">Computers doing tasks that seem to need human thinking, e.g. chess programs, route planners</text></g><g><rect x="48" y="112" width="664" height="228" rx="8" fill="none" stroke="var(--cds-chart-axis)" stroke-width="1.25"></rect><text x="64" y="136" font-weight="600" fill="var(--cds-text-primary)">Machine learning</text><text x="64" y="154" font-size="11.5" fill="var(--cds-text-secondary)">Learns patterns from examples instead of hand-written rules, e.g. a spam filter</text></g><g><rect x="72" y="172" width="616" height="152" rx="8" fill="none" stroke="var(--cds-chart-axis)" stroke-width="1.25"></rect><text x="88" y="196" font-weight="600" fill="var(--cds-text-primary)">Generative AI</text><text x="88" y="214" font-size="11.5" fill="var(--cds-text-secondary)">Creates new content: text, images, audio, video</text></g><g><rect x="96" y="232" width="568" height="76" rx="8" fill="var(--cds-chart-categorical-1)" fill-opacity="0.12" stroke="var(--cds-chart-categorical-1)" stroke-width="2"></rect><text x="112" y="256" font-weight="600" fill="var(--cds-text-primary)">Large language models (LLMs)</text><text x="112" y="274" font-size="11.5" fill="var(--cds-text-primary)">Generative AI for language: reads, understands and writes text</text><text x="112" y="292" font-size="11.5" fill="var(--cds-text-secondary)">The brain inside chat assistants and AI agents</text></g></svg></figure><ul>
+<li><strong>Artificial intelligence</strong> is the broad goal: computers doing things we would normally say need human thinking.</li>
+<li><strong>Machine learning</strong> is the main way we get there today. Instead of writing every rule by hand, we show the system thousands of examples and let it find the patterns. A spam filter learns what spam looks like from emails people have marked as spam.</li>
+<li><strong>Generative AI</strong> is machine learning that produces something new — a paragraph, a picture, a voice — rather than only sorting or scoring things.</li>
+<li><strong>Large language models</strong> are generative AI for language. &quot;Large&quot; refers to two things: the huge amount of text they learn from, and the very large number of internal settings (called parameters) that store what they learned.</li>
+</ul>
+<p>Most modern LLMs can also read images and documents, not only typed text. That matters for business tasks like reading a photographed receipt or a scanned contract.</p>
+<h2>How an LLM learns</h2>
+<p>Picture an apprentice locked in a library that holds a large share of everything ever written. Day after day, someone covers up the next word on a page and asks the apprentice to guess it. When the guess is wrong, the apprentice adjusts slightly. Repeat that billions of times.</p>
+<p>To guess well across so many subjects, the apprentice has to absorb far more than vocabulary: grammar, facts, how arguments are built, how a polite email differs from a legal clause, how a recipe is laid out. That stage is called <strong>training</strong>.</p>
+<p>A second stage then teaches the model to be a helpful assistant: to follow instructions, answer questions and decline harmful requests. It learns this from examples of good answers and from people rating its replies. This is why a model chats with you instead of just rambling on from where you left off.</p>
+<p>Two consequences are worth remembering:</p>
+<ul>
+<li><strong>Training happens once, before you ever use the model.</strong> Each time you ask it something, it is only <em>using</em> what it learned. It does not learn from your conversation the way a person would.</li>
+<li><strong>Its knowledge has a cut-off date.</strong> Anything that happened after training, and anything private to you — your clients, your prices, your files — it simply does not know unless you show it.</li>
+</ul>
+<h2>Predicting the next word is enough to seem smart</h2>
+<p>If you type &quot;The invoice is due in 30&quot;, the most likely next word is &quot;days&quot;. That looks trivial. But to predict the next word in a contract, a tax explanation or a customer complaint, the model has to capture what the text <em>means</em>. Prediction at that scale starts to look like understanding.</p>
+<p>The model writes its answer one small piece at a time, each piece chosen in light of everything before it. That is why answers appear on screen word by word. It is also why the same question can produce slightly different wording each time: the model picks among likely continuations rather than looking up one fixed answer.</p>
+<h2>What LLMs are good at, and where they slip</h2>
+<p><strong>Strong at:</strong></p>
+<ul>
+<li>Reading messy material and pulling out what matters — an email thread, a receipt, a 40-page report.</li>
+<li>Writing and rewriting: drafts, summaries, translations, replies in a given tone.</li>
+<li>Sorting and labelling: is this message a complaint, an order or a question?</li>
+<li>Following a written procedure, step by step, when the steps are spelled out.</li>
+<li>Explaining things at whatever level the reader needs.</li>
+</ul>
+<p><strong>Weak at, on their own:</strong></p>
+<ul>
+<li>Exact arithmetic on long numbers. They are predicting text, not running a calculator.</li>
+<li>Anything after their training cut-off, or anything private to you.</li>
+<li>Knowing when they do not know.</li>
+</ul>
+<p>That last point has a name.</p>
+<h2>Hallucination: the weakness to never forget</h2>
+<p>A <strong>hallucination</strong> is a confident, fluent answer that is simply made up — an invented figure, a policy that does not exist, a citation to a document nobody wrote. It happens because the model&#39;s job is to produce <em>plausible</em> text. When the true answer is not in what it learned or in front of it, a plausible-sounding wrong answer is still the most &quot;likely&quot; continuation.</p>
+<p>You cannot switch hallucination off, but you can make it rare and catch it when it happens. The rest of the series shows how:</p>
+<ul>
+<li>Put the real source material in front of the model (Posts 2 and 5).</li>
+<li>Let it check facts with tools instead of guessing (Post 3).</li>
+<li>Ask it to point to where each answer came from.</li>
+<li>Put a person at the points where a mistake would be costly (Posts 7 and 9).</li>
+</ul>
+<h2>Model, assistant, agent: three words people mix up</h2>
+<ul>
+<li><strong>Model</strong> — the trained &quot;brain&quot;. Text (and images) in, text out. Nothing else.</li>
+<li><strong>Assistant</strong> — a product built around a model: the chat window, file uploads, saved conversations.</li>
+<li><strong>Agent</strong> — a model given tools and a goal, working through a task step by step until it is done. That is Post 6.</li>
+</ul>
+<h2>Linh&#39;s first experiment</h2>
+<p>Linh photographs a crumpled supermarket receipt and asks a chat assistant: &quot;Give me the vendor, date, total and an expense category.&quot; It gets all four right, in seconds. She tries twenty more. Nineteen are right. On one faded receipt, it reports a tax amount that is not printed anywhere.</p>
+<p>Her conclusion is the right one: this is an excellent reader and a fast drafter, but it needs structure around it and a check where money is involved. That structure is what the next eight posts build.</p>
+<h2>Try it on your task</h2>
+<p>Pick one task you do every week. List its steps, and mark each one:</p>
+<ul>
+<li><strong>L</strong> — reading, writing or judging language. An LLM is likely good at this.</li>
+<li><strong>S</strong> — looking something up in a system or calculating exactly. This will need a tool (Post 3).</li>
+<li><strong>P</strong> — a judgment where a mistake is costly. Keep a person here, at least at first.</li>
+</ul>
+5:["$","article",null,{"className":"flex flex-col gap-8","children":[["$","div",null,{"className":"flex flex-col gap-3","children":[["$","$L2",null,{"href":"/","className":"text-sm text-muted hover:text-accent","children":["← Posts"," · AI Agents, Plainly Explained"]}],["$","h1",null,{"className":"text-3xl font-semibold tracking-tight","children":"Post 1 · What AI and LLMs actually are"}],["$","time",null,{"dateTime":"2026-10-11","className":"text-sm text-muted","children":"2026-10-11"}]]}],["$","div",null,{"className":"post-body","dangerouslySetInnerHTML":{"__html":"$f"}}],"$L10"]}]
+10:["$","footer",null,{"className":"grid gap-6 border-t border-line pt-6 sm:grid-cols-2","children":[["$","$L2",null,{"href":"/posts/ai-agents-00-start-here/","className":"group flex flex-col gap-1","children":[["$","span",null,{"className":"text-sm text-muted","children":"← Previous"}],["$","span",null,{"className":"text-lg font-medium group-hover:text-accent","children":"Start here"}]]}],["$","$L2",null,{"href":"/posts/ai-agents-02-prompts-context-memory/","className":"group flex flex-col gap-1 sm:text-right","children":[["$","span",null,{"className":"text-sm text-muted","children":["Next in ","AI Agents, Plainly Explained"," →"]}],["$","span",null,{"className":"text-lg font-medium group-hover:text-accent","children":"Post 2 · Prompts, context and memory"}]]}]]}]
+b:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#fcfbf9","media":"(prefers-color-scheme: light)"}],["$","meta","3",{"name":"theme-color","content":"#121110","media":"(prefers-color-scheme: dark)"}]]
+8:null
+d:[["$","title","0",{"children":"Post 1 · What AI and LLMs actually are · Quang Huy Nguyen"}],["$","meta","1",{"name":"description","content":"What is AI, and what is a large language model?"}],["$","meta","2",{"name":"author","content":"Quang Huy Nguyen"}],["$","meta","3",{"name":"creator","content":"Quang Huy Nguyen"}],["$","link","4",{"rel":"canonical","href":"https://levi218.github.io/posts/ai-agents-01-what-ai-and-llms-are/"}],["$","meta","5",{"property":"og:title","content":"Post 1 · What AI and LLMs actually are"}],["$","meta","6",{"property":"og:description","content":"What is AI, and what is a large language model?"}],["$","meta","7",{"property":"og:type","content":"article"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:title","content":"Quang Huy Nguyen"}],["$","meta","10",{"name":"twitter:description","content":"I build small, careful things on the web — and I write about how they were made."}],["$","meta","11",{"name":"twitter:image","content":"https://levi218.github.io/og.png"}]]

@@ -1,0 +1,91 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/3jnihsg-rcdh1.js"],""]
+3:I[39756,["/_next/static/chunks/3jnihsg-rcdh1.js"],"default"]
+4:I[37457,["/_next/static/chunks/3jnihsg-rcdh1.js"],"default"]
+6:I[97367,["/_next/static/chunks/3jnihsg-rcdh1.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+a:I[97367,["/_next/static/chunks/3jnihsg-rcdh1.js"],"ViewportBoundary"]
+c:I[97367,["/_next/static/chunks/3jnihsg-rcdh1.js"],"MetadataBoundary"]
+e:I[68027,["/_next/static/chunks/3jnihsg-rcdh1.js"],"default",1]
+:HL["/_next/static/chunks/1j3kk2u0-jrn5.css","style"]
+:HL["/_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+9:X
+0:{"P":null,"c":["","posts","ai-agents-05-skills-and-knowledge",""],"q":"","i":false,"f":[[["",{"children":["posts",{"children":[["slug","ai-agents-05-skills-and-knowledge","d",[]],{"children":["__PAGE__",{},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4624],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1j3kk2u0-jrn5.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/3jnihsg-rcdh1.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"geist_deef94d5-module__Sms4YG__variable geist_mono_1bf8cbf6-module__FlyLvG__variable font-sans min-h-dvh flex flex-col","children":[["$","a",null,{"href":"#main","className":"sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-50 focus:rounded focus:bg-surface focus:px-3 focus:py-2 focus:text-sm","children":"Skip to content"}],["$","header",null,{"className":"border-b border-line","children":["$","nav",null,{"aria-label":"Main","className":"mx-auto flex max-w-3xl items-center gap-6 px-6 py-4 text-sm","children":[[["$","$L2","/",{"href":"/","className":"hover:text-accent","children":"Home"}],["$","$L2","/projects/",{"href":"/projects/","className":"hover:text-accent","children":"Projects"}],["$","$L2","/about/",{"href":"/about/","className":"hover:text-accent","children":"About"}]],["$","span",null,{"className":"grow"}],null]}]}],["$","main",null,{"id":"main","className":"mx-auto w-full max-w-3xl grow px-6 py-12","children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"flex flex-col gap-4","children":[["$","h1",null,{"className":"text-3xl font-semibold tracking-tight","children":"Not found"}],["$","p",null,{"className":"text-muted","children":"There is nothing at this address."}],["$","p",null,{"className":"flex gap-4 text-sm","children":[["$","$L2",null,{"href":"/","className":"hover:text-accent","children":"Home"}],["$","$L2",null,{"href":"/projects/","className":"hover:text-accent","children":"Projects"}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",null,["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,null]},null,false,"$9"]},null,false,"$9"]},null,false,null],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$e",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1j3kk2u0-jrn5.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"VDGM687Pf0SWUEseeGcYp"}
+9:C
+f:T27b0,<p><em>About a 7-minute read</em></p>
+<p>Tools let an agent act; skills and knowledge let it act the way <em>you</em> would. A <strong>skill</strong> is a packaged procedure the agent opens only when a task calls for it. <strong>Knowledge</strong> is your own documents, organised so the agent can find the right passage and point to it.</p>
+<h2>Four ways to give an AI what it lacks</h2>
+<p>By now you have met two of these. Together they cover almost everything an agent needs beyond the model itself.</p>
+<table>
+<thead>
+<tr>
+<th>What you add</th>
+<th>What it gives the agent</th>
+<th>Workplace comparison</th>
+<th>Linh&#39;s example</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Instructions (Post 2)</td>
+<td>Who it is and the rules that always apply</td>
+<td>The job description</td>
+<td>&quot;Never estimate an amount&quot;</td>
+</tr>
+<tr>
+<td>Tools (Posts 3 and 4)</td>
+<td>The ability to act in systems</td>
+<td>A keyboard and a phone</td>
+<td>Write a row in the spreadsheet</td>
+</tr>
+<tr>
+<td>Skills</td>
+<td>How to do a particular kind of job well</td>
+<td>A chapter of the procedures manual</td>
+<td>&quot;How we handle a VAT invoice&quot;</td>
+</tr>
+<tr>
+<td>Knowledge</td>
+<td>Facts from your own documents</td>
+<td>The reference library</td>
+<td>Tax rules on deductible expenses</td>
+</tr>
+</tbody></table>
+<p>The last two are where your expertise lives, and so they are where an AI-powered service gets its edge.</p>
+<h2>Skills: know-how on demand</h2>
+<p>You could write every procedure into the agent&#39;s instructions. But Post 2 explained the cost: a crowded desk distracts the model and slows it down. Most procedures are needed only now and then.</p>
+<p>A skill solves this. It is a small folder with:</p>
+<ul>
+<li><strong>A one-line description</strong> — &quot;Use when a receipt is in a foreign currency.&quot; Only this line sits on the desk all the time.</li>
+<li><strong>The full procedure</strong> — the steps, the checks, the common traps. The agent opens it only when the description matches the job in front of it.</li>
+<li><strong>Supporting material</strong> — templates, worked examples, reference tables, sometimes a small script for an exact calculation.</li>
+</ul>
+<p>Think of a new hire who has memorised the table of contents of the procedures manual. They do not carry the whole manual in their head, but they know which chapter to open, and they open it every time.</p>
+<p>Skills matter for a business for three reasons:</p>
+<ul>
+<li><strong>They are written in plain language.</strong> Your best practitioner can write and improve them without any programming.</li>
+<li><strong>They make results consistent.</strong> The same job is done the same way, by every agent, every time.</li>
+<li><strong>They are an asset you own.</strong> Models will keep changing and improving. Your carefully tested procedures move with you to the next model, and they are hard for a competitor to copy.</li>
+</ul>
+<h2>Knowledge: letting the agent look things up</h2>
+<p>Skills hold <em>how</em> to do something. Knowledge holds <em>what is true</em> in your world: contracts, policies, price lists, regulations, past cases. Too much to fit on the desk, and it changes over time.</p>
+<p>The usual approach has a long name, <strong>retrieval-augmented generation</strong>, often shortened to <strong>RAG</strong>. The idea is simple: before answering, the agent searches your library and puts the most relevant passages on its desk.</p>
+<figure class="diagram"><svg viewBox="0 0 760 274" role="img" aria-label="The agent answers from the passages it finds, and shows where they came from" font-size="13"><defs><marker id="rag-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--cds-chart-axis)"></path></marker></defs><text x="24" y="30" font-size="15" font-weight="600" fill="var(--cds-text-primary)">The agent answers from passages it finds, and shows where they came from</text><text x="24" y="72" font-size="11.5" font-weight="600" fill="var(--cds-text-secondary)">PREPARED ONCE</text><text x="24" y="186" font-size="11.5" font-weight="600" fill="var(--cds-text-secondary)">ON EVERY QUESTION</text><g fill="none" stroke="var(--cds-chart-axis)" stroke-width="1.25"><path d="M148 112H171" marker-end="url(#rag-arrow)"></path><path d="M295 112H318" marker-end="url(#rag-arrow)"></path><path d="M380 140V166H233V194" marker-end="url(#rag-arrow)"></path><path d="M148 222H171" marker-end="url(#rag-arrow)"></path><path d="M295 222H318" marker-end="url(#rag-arrow)"></path><path d="M442 222H465" marker-end="url(#rag-arrow)"></path><path d="M589 222H612" marker-end="url(#rag-arrow)"></path></g><g><rect x="24" y="84" width="124" height="56" rx="8" fill="none" fill-opacity="1" stroke="var(--cds-chart-axis)" stroke-width="1.25"></rect><text x="86" y="108" text-anchor="middle" font-weight="600" fill="var(--cds-text-primary)">Documents</text><text x="86" y="126" text-anchor="middle" font-size="11.5" fill="var(--cds-text-secondary)">rules, contracts</text></g><g><rect x="171" y="84" width="124" height="56" rx="8" fill="none" fill-opacity="1" stroke="var(--cds-chart-axis)" stroke-width="1.25"></rect><text x="233" y="108" text-anchor="middle" font-weight="600" fill="var(--cds-text-primary)">Split</text><text x="233" y="126" text-anchor="middle" font-size="11.5" fill="var(--cds-text-secondary)">into passages</text></g><g><rect x="318" y="84" width="124" height="56" rx="8" fill="none" fill-opacity="1" stroke="var(--cds-chart-axis)" stroke-width="1.25"></rect><text x="380" y="108" text-anchor="middle" font-weight="600" fill="var(--cds-text-primary)">Index</text><text x="380" y="126" text-anchor="middle" font-size="11.5" fill="var(--cds-text-secondary)">by meaning</text></g><text x="466" y="108" font-size="11.5" fill="var(--cds-text-secondary)">Redone whenever your</text><text x="466" y="124" font-size="11.5" fill="var(--cds-text-secondary)">documents change</text><g><rect x="24" y="194" width="124" height="56" rx="8" fill="none" fill-opacity="1" stroke="var(--cds-chart-axis)" stroke-width="1.25"></rect><text x="86" y="218" text-anchor="middle" font-weight="600" fill="var(--cds-text-primary)">Question</text><text x="86" y="236" text-anchor="middle" font-size="11.5" fill="var(--cds-text-secondary)">from a user</text></g><g><rect x="171" y="194" width="124" height="56" rx="8" fill="none" fill-opacity="1" stroke="var(--cds-chart-axis)" stroke-width="1.25"></rect><text x="233" y="218" text-anchor="middle" font-weight="600" fill="var(--cds-text-primary)">Search</text><text x="233" y="236" text-anchor="middle" font-size="11.5" fill="var(--cds-text-secondary)">the library</text></g><g><rect x="318" y="194" width="124" height="56" rx="8" fill="none" fill-opacity="1" stroke="var(--cds-chart-axis)" stroke-width="1.25"></rect><text x="380" y="218" text-anchor="middle" font-weight="600" fill="var(--cds-text-primary)">Best passages</text><text x="380" y="236" text-anchor="middle" font-size="11.5" fill="var(--cds-text-secondary)">put on the desk</text></g><g><rect x="465" y="194" width="124" height="56" rx="8" fill="none" fill-opacity="1" stroke="var(--cds-chart-axis)" stroke-width="1.25"></rect><text x="527" y="218" text-anchor="middle" font-weight="600" fill="var(--cds-text-primary)">The model</text><text x="527" y="236" text-anchor="middle" font-size="11.5" fill="var(--cds-text-secondary)">reads and writes</text></g><g><rect x="612" y="194" width="124" height="56" rx="8" fill="var(--cds-chart-categorical-1)" fill-opacity="0.12" stroke="var(--cds-chart-categorical-1)" stroke-width="2"></rect><text x="674" y="218" text-anchor="middle" font-weight="600" fill="var(--cds-text-primary)">Answer</text><text x="674" y="236" text-anchor="middle" font-size="11.5" fill="var(--cds-text-primary)">with its sources</text></g></svg></figure><p>In the preparation step, documents are cut into short passages and indexed by <em>meaning</em>, not just by keywords. A search for &quot;meal with a client&quot; can then find a passage about &quot;entertainment expenses&quot; even though the words differ.</p>
+<p>The pay-off is large. Answers reflect your current documents rather than the model&#39;s training, private material stays in your library, and every answer can point to the passage it came from — which makes checking fast.</p>
+<p>Two cautions:</p>
+<ul>
+<li><strong>The library is only as good as what you put in it.</strong> Outdated or contradictory documents produce confident, outdated or contradictory answers. Keep one current version of each.</li>
+<li><strong>Search can miss.</strong> If the right passage is not found, the model may fall back on guessing. A good instruction says: &quot;If the documents do not answer the question, say so.&quot;</li>
+</ul>
+<h2>A rarer option: retraining the model</h2>
+<p>You may hear of <strong>fine-tuning</strong>: further training a model on your own examples so its default behaviour changes. It has its uses, such as a very particular writing style or a large volume of one narrow task. For most services, though, good instructions, skills and knowledge get you further, faster and more cheaply. Start there.</p>
+<h2>Linh writes down her best accountant&#39;s head</h2>
+<p>Linh&#39;s senior accountant, Thu, knows dozens of small rules: which receipts are not deductible, how to treat a hotel bill that includes a dinner, what to do with a handwritten receipt. Until now that know-how existed only in Thu&#39;s head.</p>
+<p>Together they write four skills: &quot;Read a receipt&quot;, &quot;Handle a VAT invoice&quot;, &quot;Foreign-currency receipts&quot; and &quot;Missing-receipts email&quot;. Into the knowledge library go the current tax guidance on deductible expenses and a one-page profile of each client. Linh realises these files, not the AI model, are what her competitors cannot buy.</p>
+<h2>Try it on your task</h2>
+<p>Write down three to five procedures your most experienced person follows that a newcomer gets wrong. Each one is a candidate skill. Then list the documents someone has to consult to do the task well. That is your knowledge library.</p>
+5:["$","article",null,{"className":"flex flex-col gap-8","children":[["$","div",null,{"className":"flex flex-col gap-3","children":[["$","$L2",null,{"href":"/","className":"text-sm text-muted hover:text-accent","children":["← Posts"," · AI Agents, Plainly Explained"]}],["$","h1",null,{"className":"text-3xl font-semibold tracking-tight","children":"Post 5 · Skills and knowledge: giving AI know-how"}],["$","time",null,{"dateTime":"2026-10-11","className":"text-sm text-muted","children":"2026-10-11"}]]}],["$","div",null,{"className":"post-body","dangerouslySetInnerHTML":{"__html":"$f"}}],"$L10"]}]
+10:["$","footer",null,{"className":"grid gap-6 border-t border-line pt-6 sm:grid-cols-2","children":[["$","$L2",null,{"href":"/posts/ai-agents-04-mcp/","className":"group flex flex-col gap-1","children":[["$","span",null,{"className":"text-sm text-muted","children":"← Previous"}],["$","span",null,{"className":"text-lg font-medium group-hover:text-accent","children":"Post 4 · MCP: one plug for every tool"}]]}],["$","$L2",null,{"href":"/posts/ai-agents-06-ai-agents/","className":"group flex flex-col gap-1 sm:text-right","children":[["$","span",null,{"className":"text-sm text-muted","children":["Next in ","AI Agents, Plainly Explained"," →"]}],["$","span",null,{"className":"text-lg font-medium group-hover:text-accent","children":"Post 6 · AI agents: the loop that gets work done"}]]}]]}]
+b:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#fcfbf9","media":"(prefers-color-scheme: light)"}],["$","meta","3",{"name":"theme-color","content":"#121110","media":"(prefers-color-scheme: dark)"}]]
+8:null
+d:[["$","title","0",{"children":"Post 5 · Skills and knowledge: giving AI know-how · Quang Huy Nguyen"}],["$","meta","1",{"name":"description","content":"How do I give AI my know-how and my documents?"}],["$","meta","2",{"name":"author","content":"Quang Huy Nguyen"}],["$","meta","3",{"name":"creator","content":"Quang Huy Nguyen"}],["$","link","4",{"rel":"canonical","href":"https://levi218.github.io/posts/ai-agents-05-skills-and-knowledge/"}],["$","meta","5",{"property":"og:title","content":"Post 5 · Skills and knowledge: giving AI know-how"}],["$","meta","6",{"property":"og:description","content":"How do I give AI my know-how and my documents?"}],["$","meta","7",{"property":"og:type","content":"article"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:title","content":"Quang Huy Nguyen"}],["$","meta","10",{"name":"twitter:description","content":"I build small, careful things on the web — and I write about how they were made."}],["$","meta","11",{"name":"twitter:image","content":"https://levi218.github.io/og.png"}]]
