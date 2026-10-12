@@ -85,3 +85,20 @@ body {
 .post-body pre { background: var(--surface-soft); padding: 1em; border-radius: 6px; overflow-x: auto; }
 .post-body pre code { background: none; padding: 0; }
 .post-body img { max-width: 100%; border-radius: 6px; }
+
+/*
+ * Inline SVG diagrams ported from Claude Docs. They colour themselves with the
+ * doc's `--cds-*` names; map those onto this palette so they follow dark mode.
+ * Below ~560px the text gets too small, so they scroll sideways instead of shrinking.
+ */
+.post-body .diagram {
+  --cds-text-primary: var(--foreground);
+  --cds-text-secondary: var(--muted);
+  --cds-chart-axis: var(--muted);
+  --cds-chart-grid: var(--line);
+  --cds-chart-categorical-1: var(--accent);
+  --cds-chart-reference-tint: var(--surface-soft);
+  margin-block: 1.6em;
+  overflow-x: auto;
+}
+.post-body .diagram svg { display: block; width: 100%; min-width: 560px; height: auto; font-family: inherit; }

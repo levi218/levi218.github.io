@@ -53,7 +53,8 @@ export function readPosts(): Post[] {
   return readdirSync(DIR)
     .filter((file) => file.endsWith(".md"))
     .map((file) => parse(file.slice(0, -3), readFileSync(path.join(DIR, file), "utf8")))
-    .sort((a, b) => b.date.localeCompare(a.date));
+    // Same-day ties break on slug, so a series published at once reads in filename order.
+    .sort((a, b) => b.date.localeCompare(a.date) || b.slug.localeCompare(a.slug));
 }
 
 /**
