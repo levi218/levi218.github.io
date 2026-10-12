@@ -1,0 +1,14 @@
+{
+  "name": "Quang Huy Nguyen",
+  "shortName": "Quang Huy",
+  "tagline": "I build small, careful things on the web — and I write about how they were made.",
+  "email": "nguyenquanghuy1997@gmail.com",
+  "location": null,
+  "domain": null,
+  "links": [
+    { "kind": "github", "label": "GitHub", "url": "https://github.com/levi218" },
+    { "kind": "linkedin", "label": "LinkedIn", "url": "https://www.linkedin.com/in/your-name" },
+    { "kind": "itch", "label": "itch.io", "url": "https://levi218.itch.io/" },
+    { "kind": "npm", "label": "npm", "url": "https://www.npmjs.com/~levi218" }
+  ]
+}

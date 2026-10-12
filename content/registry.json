@@ -1,0 +1,151 @@
+{
+  "version": 1,
+  "projects": [
+    {
+      "slug": "chinese",
+      "status": "published",
+      "order": 10,
+      "title": "汉字 Garden",
+      "blurb": "Learn the most-used Chinese characters of HSK 1–3 through four small games, each character with its roots, its story and its own four-line poem.",
+      "tags": [
+        "app"
+      ],
+      "aiAssisted": {
+        "share": 0.85,
+        "note": "The content pipeline, the games and the UI were written with Claude; the curriculum and the poems were reviewed by hand."
+      },
+      "source": {
+        "dir": "../chinese",
+        "repo": null,
+        "ref": "main"
+      },
+      "deploy": {
+        "mode": "subpath",
+        "path": "apps/chinese",
+        "buildCommand": "npm run build",
+        "outDir": "out",
+        "basePathEnv": "NEXT_PUBLIC_BASE_PATH",
+        "env": {
+          "NEXT_PUBLIC_SITE_URL": "{{siteUrl}}/apps/chinese"
+        }
+      },
+      "links": {},
+      "release": {},
+      "cover": null
+    },
+    {
+      "slug": "amalgam",
+      "status": "draft",
+      "order": 20,
+      "title": "Amalgam",
+      "blurb": "A turn-based tactics game where you command yourself, divided.",
+      "tags": [
+        "game"
+      ],
+      "aiAssisted": {
+        "share": 0.8,
+        "note": null
+      },
+      "source": {
+        "dir": "../goo",
+        "repo": null,
+        "ref": "main"
+      },
+      "deploy": {
+        "mode": "external"
+      },
+      "links": {
+        "itch": "https://your-name.itch.io/amalgam"
+      },
+      "release": {
+        "itch": {
+          "target": "your-name/amalgam",
+          "channel": "html5",
+          "dir": "out",
+          "buildCommand": "npm run build"
+        },
+        "npm": null
+      },
+      "cover": null
+    },
+    {
+      "slug": "virtual-gallery",
+      "status": "published",
+      "order": 30,
+      "title": "Virtual Gallery Builder",
+      "blurb": "Lay out a gallery floorplan, hang your work on its walls, and publish a link anyone can walk through in first person in the browser.",
+      "tags": [
+        "app"
+      ],
+      "aiAssisted": {
+        "share": 0.9,
+        "note": null
+      },
+      "source": {
+        "dir": "../virtual-gallery",
+        "repo": null,
+        "ref": "main"
+      },
+      "deploy": {
+        "mode": "none"
+      },
+      "links": {},
+      "release": {},
+      "cover": null
+    },
+    {
+      "slug": "p5js-to-lottie",
+      "status": "published",
+      "order": 40,
+      "title": "p5js-to-lottie",
+      "blurb": "Save a p5.js sketch as a Lottie file — code your animation, ship a small vector file instead of a GIF.",
+      "tags": [
+        "library"
+      ],
+      "aiAssisted": {
+        "share": 0.2,
+        "note": null
+      },
+      "source": {
+        "dir": "../p5js-to-lottie",
+        "repo": "https://github.com/levi218/p5js-to-lottie",
+        "ref": "main"
+      },
+      "deploy": {
+        "mode": "external"
+      },
+      "links": {
+        "npm": "https://www.npmjs.com/package/p5js-to-lottie"
+      },
+      "release": {},
+      "cover": null
+    },
+    {
+      "slug": "p5js-to-lottie-vscode",
+      "status": "published",
+      "order": 50,
+      "title": "P5.js to Lottie for VS Code",
+      "blurb": "A VS Code extension that previews a p5.js sketch as a Lottie animation beside your code and exports the JSON.",
+      "tags": [
+        "app"
+      ],
+      "aiAssisted": {
+        "share": 0.2,
+        "note": null
+      },
+      "source": {
+        "dir": "../p5js-to-lottie-vscode",
+        "repo": "https://github.com/levi218/p5js-to-lottie-vscode",
+        "ref": "main"
+      },
+      "deploy": {
+        "mode": "external"
+      },
+      "links": {
+        "live": "https://marketplace.visualstudio.com/items?itemName=levi218.p5js-to-lottie"
+      },
+      "release": {},
+      "cover": null
+    }
+  ]
+}
