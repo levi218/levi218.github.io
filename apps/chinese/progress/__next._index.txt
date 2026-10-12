@@ -1,0 +1,48 @@
+1:"$Sreact.fragment"
+3:I[34107,["/apps/chinese/_next/static/chunks/3ktmve-totke0.js"],"SiteNav"]
+4:I[39756,["/apps/chinese/_next/static/chunks/3ktmve-totke0.js"],"default"]
+5:I[37457,["/apps/chinese/_next/static/chunks/3ktmve-totke0.js"],"default"]
+:HL["/apps/chinese/_next/static/chunks/2vy__fhk_x-ri.css","style"]
+2:T59f,(function () {
+  try {
+    var canvas = document.createElement("canvas");
+    canvas.width = canvas.height = 32;
+    var ctx = canvas.getContext("2d", { willReadFrequently: true });
+    if (!ctx) return;
+    function ink(ch) {
+      ctx.clearRect(0, 0, 32, 32);
+      ctx.font = '24px sans-serif';
+      ctx.textBaseline = 'top';
+      ctx.fillText(ch, 0, 0);
+      var d = ctx.getImageData(0, 0, 32, 32).data, h = 0;
+      for (var i = 3; i < d.length; i += 4) h = (h * 31 + d[i]) | 0;
+      return h;
+    }
+    // \u597d is 好; \ue000 is private-use, so no font defines it. Different
+    // pixels mean a real CJK glyph was drawn and there is nothing to fix.
+    if (ink('\u597d') !== ink('\ue000')) return;
+    var style = document.createElement('style');
+    style.textContent = "@font-face{font-family:\"Hanzi Garden SC\";font-style:normal;font-weight:400;font-display:fallback;src:url(\"/apps/chinese/fonts/noto-sans-sc-subset-400.woff2\") format(\"woff2\")}@font-face{font-family:\"Hanzi Garden SC\";font-style:normal;font-weight:600;font-display:fallback;src:url(\"/apps/chinese/fonts/noto-sans-sc-subset-600.woff2\") format(\"woff2\")}";
+    document.head.appendChild(style);
+  } catch (e) {
+    // A locked-down canvas reads back blank for both samples and lands here or
+    // in the branch above; either way the worst case is loading a font that
+    // was not needed, never leaving a visitor staring at empty boxes.
+  }
+})();d:X
+0:{"buildId":"lQLRkl5sIOcyX_lsERkvn","data":[{"rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/apps/chinese/_next/static/chunks/2vy__fhk_x-ri.css","precedence":"next"}],["$","script","script-0",{"src":"/apps/chinese/_next/static/chunks/3ktmve-totke0.js","async":true}]],["$","html",null,{"lang":"en","className":"geist_deef94d5-module__Sms4YG__variable geist_mono_1bf8cbf6-module__FlyLvG__variable h-full antialiased","children":["$","body",null,{"className":"flex min-h-full flex-col","children":[["$","script",null,{"id":"hanzi-font-probe","dangerouslySetInnerHTML":{"__html":"$2"}}],null,["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"汉字 Garden\",\"alternateName\":\"汉字 Garden\",\"url\":\"https://levi218.github.io/apps/chinese/\",\"description\":\"Learn the most-used Chinese characters of HSK 1-3. Every character comes with pinyin, meanings, stroke count, radical, its building blocks, example words and a playful mnemonic poem.\",\"inLanguage\":\"en\",\"isAccessibleForFree\":true}"}}],["$","a",null,{"href":"#main","className":"sr-only focus:not-sr-only focus:absolute focus:top-3 focus:left-3 focus:z-50 focus:rounded-full focus:bg-foreground focus:px-4 focus:py-2 focus:text-sm focus:text-background","children":"Skip to content"}],["$","$L3",null,{}],["$","div",null,{"id":"main","className":"flex-1","children":["$","$L4",null,{"parallelRouterKey":"children","template":["$","$L5",null,{}],"notFound":[["$","main",null,{"className":"px-4 pb-20 sm:px-6","children":["$","div",null,{"className":"mx-auto max-w-2xl pt-20 pb-10 text-center","children":[["$","p",null,{"className":"font-hanzi text-7xl leading-none text-seal sm:text-8xl","children":"迷"}],["$","h1",null,{"className":"mt-6 text-3xl font-semibold tracking-tight sm:text-4xl","children":"Lost in the garden"}],["$","p",null,{"className":"mt-4 text-base leading-relaxed text-muted","children":[["$","span",null,{"className":"font-hanzi","children":"迷"}]," ",["$","span",null,{"className":"font-mono text-sm","children":"mí"}]," — to be confused, to lose the way. There is no page at this address."]}],["$","div",null,{"className":"mt-8 flex flex-wrap justify-center gap-3","children":["$L6","$L7"]}],"$L8"]}]}],[]]}]}],"$L9","$La","$Lb"]}]}]]}],"isPartial":"$@c","staleTime":"$d","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@e","rootVaryParams":null,"needsRuntimeRequest":"$@f"}
+10:I[22016,["/apps/chinese/_next/static/chunks/3ktmve-totke0.js"],""]
+11:I[55011,["/apps/chinese/_next/static/chunks/3ktmve-totke0.js"],"ConsentSettings"]
+12:I[65510,["/apps/chinese/_next/static/chunks/3ktmve-totke0.js"],"ConsentBanner"]
+13:I[41345,["/apps/chinese/_next/static/chunks/3ktmve-totke0.js"],"Analytics"]
+6:["$","$L10",null,{"href":"/","className":"inline-flex items-center gap-2 rounded-full bg-foreground px-5 py-2.5 text-sm font-medium text-background transition hover:opacity-85","children":"All 565 characters"}]
+7:["$","$L10",null,{"href":"/games","className":"inline-flex items-center gap-2 rounded-full border border-line bg-card px-5 py-2.5 text-sm font-medium transition hover:border-foreground/30","children":"The games"}]
+8:["$","ul",null,{"className":"mt-12 flex flex-wrap justify-center gap-2 text-sm","children":[["$","li","alchemy",{"children":["$","$L10",null,{"href":"/games/alchemy","className":"inline-flex items-center gap-2 rounded-full border border-line bg-card px-3 py-1.5 text-muted transition hover:text-foreground","children":[["$","span",null,{"className":"size-1.5 rounded-full bg-jade","aria-hidden":true}],["$","span",null,{"className":"font-hanzi","children":"合成"}],"Character Alchemy"]}]}],["$","li","imposter",{"children":["$","$L10",null,{"href":"/games/imposter","className":"inline-flex items-center gap-2 rounded-full border border-line bg-card px-3 py-1.5 text-muted transition hover:text-foreground","children":[["$","span",null,{"className":"size-1.5 rounded-full bg-seal","aria-hidden":true}],["$","span",null,{"className":"font-hanzi","children":"辨识"}],"Spot the Imposter"]}]}],["$","li","rhythm",{"children":["$","$L10",null,{"href":"/games/rhythm","className":"inline-flex items-center gap-2 rounded-full border border-line bg-card px-3 py-1.5 text-muted transition hover:text-foreground","children":[["$","span",null,{"className":"size-1.5 rounded-full bg-gold","aria-hidden":true}],["$","span",null,{"className":"font-hanzi","children":"笔顺"}],"Stroke Rhythm"]}]}],["$","li","territory",{"children":["$","$L10",null,{"href":"/games/territory","className":"inline-flex items-center gap-2 rounded-full border border-line bg-card px-3 py-1.5 text-muted transition hover:text-foreground","children":[["$","span",null,{"className":"size-1.5 rounded-full bg-indigo","aria-hidden":true}],["$","span",null,{"className":"font-hanzi","children":"疆域"}],"Territory Map"]}]}]]}]
+9:["$","footer",null,{"className":"border-t border-line/70 px-4 py-8 text-center text-xs text-muted sm:px-6","children":[["$","p",null,{"children":[["$","span",null,{"className":"font-hanzi","children":"汉字"}]," ",["$","span",null,{"className":"font-medium","children":"Garden"}]," — built for slow, curious study. Definitions and mnemonics are learning aids, not a dictionary."]}],["$","p",null,{"className":"mt-2 text-[0.7rem] text-muted/80","children":["Progress is stored in this browser only. Stroke-order data from"," ",["$","a",null,{"href":"https://github.com/chanind/hanzi-writer-data","className":"underline underline-offset-2 hover:text-foreground","rel":"noreferrer noopener","target":"_blank","children":"Hanzi Writer"}],", derived from Make Me a Hanzi (Arphic Public License)."]}],["$","$L11",null,{}]]}]
+a:["$","$L12",null,{}]
+b:["$","$L13",null,{}]
+d:300
+f:true
+d:C
+e:0
+c:"$undefined"

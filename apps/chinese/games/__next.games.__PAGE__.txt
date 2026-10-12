@@ -1,0 +1,42 @@
+1:"$Sreact.fragment"
+2:I[22016,["/apps/chinese/_next/static/chunks/3ktmve-totke0.js","/apps/chinese/_next/static/chunks/15ohuvlir265h.js","/apps/chinese/_next/static/chunks/2onwkny5u01_7.js"],""]
+3:I[44797,["/apps/chinese/_next/static/chunks/3ktmve-totke0.js","/apps/chinese/_next/static/chunks/15ohuvlir265h.js","/apps/chinese/_next/static/chunks/2onwkny5u01_7.js"],"GameGrid"]
+4:I[4089,["/apps/chinese/_next/static/chunks/3ktmve-totke0.js","/apps/chinese/_next/static/chunks/15ohuvlir265h.js","/apps/chinese/_next/static/chunks/2onwkny5u01_7.js"],"ProgressDashboard"]
+5:I[97367,["/apps/chinese/_next/static/chunks/3ktmve-totke0.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+a:I[97367,["/apps/chinese/_next/static/chunks/3ktmve-totke0.js"],"ViewportBoundary"]
+b:I[97367,["/apps/chinese/_next/static/chunks/3ktmve-totke0.js"],"MetadataBoundary"]
+9:X
+21:X
+21:C
+0:{"buildId":"lQLRkl5sIOcyX_lsERkvn","data":[{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"px-4 pb-20 sm:px-6","children":["$","div",null,{"className":"mx-auto max-w-6xl","children":[["$","header",null,{"className":"texture-paper relative mt-6 mb-10 overflow-hidden rounded-3xl border border-line bg-card/70 px-6 py-12 sm:px-10","children":[["$","p",null,{"className":"mb-4 inline-flex items-center gap-2 rounded-full border border-line bg-card px-3 py-1 text-xs font-medium tracking-wide text-muted uppercase","children":[["$","span",null,{"className":"size-1.5 rounded-full bg-seal","aria-hidden":true}],"Four games · ",565," characters"]}],["$","h1",null,{"className":"max-w-2xl text-4xl leading-[1.1] font-semibold tracking-tight sm:text-5xl","children":["Recognition is not the same as"," ",["$","span",null,{"className":"font-hanzi text-seal","children":"记得"}]," remembering."]}],["$","p",null,{"className":"mt-5 max-w-2xl text-base leading-relaxed text-muted","children":"Reading a character once is easy. Recalling it a week later is the hard part — so each of these attacks a different failure: not knowing the parts, mixing up look-alikes, guessing at stroke order, and quietly forgetting what you learned last month. They all write to the same memory, so time spent anywhere counts everywhere."}],["$","p",null,{"className":"mt-4 text-sm text-muted","children":["Prefer to read first?"," ",["$","$L2",null,{"href":"/","className":"underline underline-offset-4 transition hover:text-foreground","children":"Browse the characters"}],"."]}]]}],["$","$L3",null,{}],["$","div",null,{"className":"mt-14","children":["$","$L4",null,{"variant":"home"}]}]]}]}],[["$","script","script-0",{"src":"/apps/chinese/_next/static/chunks/15ohuvlir265h.js","async":true}],["$","script","script-1",{"src":"/apps/chinese/_next/static/chunks/2onwkny5u01_7.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"isPartial":"$@8","staleTime":"$9","varyParams":null},{"rsc":["$","$1","h",{"children":[null,["$","$La",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#fbf6ee","media":"(prefers-color-scheme: light)"}],["$","meta","3",{"name":"theme-color","content":"#14110d","media":"(prefers-color-scheme: dark)"}],["$","meta","4",{"name":"color-scheme","content":"light dark"}]]}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$6",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Games · 汉字 Garden"}],["$","meta","1",{"name":"description","content":"Four ways to make Chinese characters stick: fuse components into characters, tell look-alikes apart, trace stroke order on the beat, and hold an HSK level as territory on a map."}],["$","meta","2",{"name":"application-name","content":"汉字 Garden"}],["$","meta","3",{"name":"author","content":"汉字 Garden"}],["$","link","4",{"rel":"manifest","href":"/apps/chinese/manifest.webmanifest"}],["$","meta","5",{"name":"keywords","content":"Chinese characters,hanzi,HSK 1,HSK 2,HSK 3,pinyin,stroke order,mnemonics,learn Chinese,Chinese flashcards"}],["$","meta","6",{"name":"creator","content":"汉字 Garden"}],["$","meta","7",{"name":"publisher","content":"汉字 Garden"}],["$","meta","8",{"name":"robots","content":"index, follow"}],["$","meta","9",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","meta","10",{"name":"category","content":"education"}],["$","link","11",{"rel":"canonical","href":"https://levi218.github.io/apps/chinese/games/"}],["$","meta","12",{"name":"format-detection","content":"telephone=no, address=no, email=no"}],["$","meta","13",{"property":"og:title","content":"Games · 汉字 Garden"}],["$","meta","14",{"property":"og:description","content":"Four ways to make Chinese characters stick: fuse components into characters, tell look-alikes apart, trace stroke order on the beat, and hold an HSK level as territory on a map."}],["$","meta","15",{"property":"og:url","content":"https://levi218.github.io/apps/chinese/games/"}],"$Lc","$Ld","$Le","$Lf","$L10","$L11","$L12","$L13","$L14","$L15","$L16","$L17","$L18","$L19","$L1a","$L1b","$L1c"]}]}]}],"$L1d"]}],"isPartial":"$@1e","staleTime":"$9","varyParams":null},{"rsc":"$L1f","isPartial":"$@20","staleTime":"$9","varyParams":"$21"}],"isUpgradeableISRFallback":false,"a":"$@22","rootVaryParams":null,"needsRuntimeRequest":"$@23"}
+24:I[27201,["/apps/chinese/_next/static/chunks/3ktmve-totke0.js"],"IconMark"]
+25:I[39756,["/apps/chinese/_next/static/chunks/3ktmve-totke0.js"],"default"]
+26:I[37457,["/apps/chinese/_next/static/chunks/3ktmve-totke0.js"],"default"]
+7:null
+c:["$","meta","16",{"property":"og:site_name","content":"汉字 Garden"}]
+d:["$","meta","17",{"property":"og:locale","content":"en_US"}]
+e:["$","meta","18",{"property":"og:image","content":"https://levi218.github.io/apps/chinese/og.png"}]
+f:["$","meta","19",{"property":"og:image:width","content":"1200"}]
+10:["$","meta","20",{"property":"og:image:height","content":"630"}]
+11:["$","meta","21",{"property":"og:image:alt","content":"汉字 Garden — learn the 565 most-used Chinese characters, HSK 1 to 3"}]
+12:["$","meta","22",{"property":"og:type","content":"website"}]
+13:["$","meta","23",{"name":"twitter:card","content":"summary_large_image"}]
+14:["$","meta","24",{"name":"twitter:title","content":"Games · 汉字 Garden"}]
+15:["$","meta","25",{"name":"twitter:description","content":"Four ways to make Chinese characters stick: fuse components into characters, tell look-alikes apart, trace stroke order on the beat, and hold an HSK level as territory on a map."}]
+16:["$","meta","26",{"name":"twitter:image","content":"https://levi218.github.io/apps/chinese/og.png"}]
+17:["$","link","27",{"rel":"icon","href":"/apps/chinese/icon.svg","type":"image/svg+xml"}]
+18:["$","link","28",{"rel":"icon","href":"/apps/chinese/favicon-32.png","sizes":"32x32","type":"image/png"}]
+19:["$","link","29",{"rel":"icon","href":"/apps/chinese/favicon-96.png","sizes":"96x96","type":"image/png"}]
+1a:["$","link","30",{"rel":"icon","href":"/apps/chinese/favicon.ico","sizes":"32x32","type":"image/x-icon"}]
+1b:["$","link","31",{"rel":"apple-touch-icon","href":"/apps/chinese/apple-icon.png","sizes":"180x180","type":"image/png"}]
+1c:["$","$L24","32",{}]
+1d:["$","meta",null,{"name":"next-size-adjust","content":""}]
+1f:["$","$1","c",{"children":[null,["$","$L25",null,{"parallelRouterKey":"children","template":["$","$L26",null,{}]}]]}]
+23:true
+9:300
+9:C
+22:0
+1e:"$undefined"
+20:"$undefined"
+8:"$undefined"

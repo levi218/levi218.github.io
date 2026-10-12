@@ -1,0 +1,46 @@
+1:"$Sreact.fragment"
+2:I[22016,["/apps/chinese/_next/static/chunks/3ktmve-totke0.js"],""]
+3:I[97367,["/apps/chinese/_next/static/chunks/3ktmve-totke0.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+8:I[97367,["/apps/chinese/_next/static/chunks/3ktmve-totke0.js"],"ViewportBoundary"]
+9:I[97367,["/apps/chinese/_next/static/chunks/3ktmve-totke0.js"],"MetadataBoundary"]
+7:X
+25:X
+25:C
+0:{"buildId":"lQLRkl5sIOcyX_lsERkvn","data":[{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"px-4 pb-20 sm:px-6","children":["$","div",null,{"className":"mx-auto max-w-2xl pt-20 pb-10 text-center","children":[["$","p",null,{"className":"font-hanzi text-7xl leading-none text-seal sm:text-8xl","children":"迷"}],["$","h1",null,{"className":"mt-6 text-3xl font-semibold tracking-tight sm:text-4xl","children":"Lost in the garden"}],["$","p",null,{"className":"mt-4 text-base leading-relaxed text-muted","children":[["$","span",null,{"className":"font-hanzi","children":"迷"}]," ",["$","span",null,{"className":"font-mono text-sm","children":"mí"}]," — to be confused, to lose the way. There is no page at this address."]}],["$","div",null,{"className":"mt-8 flex flex-wrap justify-center gap-3","children":[["$","$L2",null,{"href":"/","className":"inline-flex items-center gap-2 rounded-full bg-foreground px-5 py-2.5 text-sm font-medium text-background transition hover:opacity-85","children":"All 565 characters"}],["$","$L2",null,{"href":"/games","className":"inline-flex items-center gap-2 rounded-full border border-line bg-card px-5 py-2.5 text-sm font-medium transition hover:border-foreground/30","children":"The games"}]]}],["$","ul",null,{"className":"mt-12 flex flex-wrap justify-center gap-2 text-sm","children":[["$","li","alchemy",{"children":["$","$L2",null,{"href":"/games/alchemy","className":"inline-flex items-center gap-2 rounded-full border border-line bg-card px-3 py-1.5 text-muted transition hover:text-foreground","children":[["$","span",null,{"className":"size-1.5 rounded-full bg-jade","aria-hidden":true}],["$","span",null,{"className":"font-hanzi","children":"合成"}],"Character Alchemy"]}]}],["$","li","imposter",{"children":["$","$L2",null,{"href":"/games/imposter","className":"inline-flex items-center gap-2 rounded-full border border-line bg-card px-3 py-1.5 text-muted transition hover:text-foreground","children":[["$","span",null,{"className":"size-1.5 rounded-full bg-seal","aria-hidden":true}],["$","span",null,{"className":"font-hanzi","children":"辨识"}],"Spot the Imposter"]}]}],["$","li","rhythm",{"children":["$","$L2",null,{"href":"/games/rhythm","className":"inline-flex items-center gap-2 rounded-full border border-line bg-card px-3 py-1.5 text-muted transition hover:text-foreground","children":[["$","span",null,{"className":"size-1.5 rounded-full bg-gold","aria-hidden":true}],["$","span",null,{"className":"font-hanzi","children":"笔顺"}],"Stroke Rhythm"]}]}],["$","li","territory",{"children":["$","$L2",null,{"href":"/games/territory","className":"inline-flex items-center gap-2 rounded-full border border-line bg-card px-3 py-1.5 text-muted transition hover:text-foreground","children":[["$","span",null,{"className":"size-1.5 rounded-full bg-indigo","aria-hidden":true}],["$","span",null,{"className":"font-hanzi","children":"疆域"}],"Territory Map"]}]}]]}]]}]}],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":"$@6","staleTime":"$7","varyParams":null},{"rsc":["$","$1","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L8",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#fbf6ee","media":"(prefers-color-scheme: light)"}],["$","meta","3",{"name":"theme-color","content":"#14110d","media":"(prefers-color-scheme: dark)"}],["$","meta","4",{"name":"color-scheme","content":"light dark"}]]}],["$","div",null,{"hidden":true,"children":["$","$L9",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Page not found · 汉字 Garden"}],["$","meta","1",{"name":"description","content":"That page is not part of the garden."}],["$","meta","2",{"name":"application-name","content":"汉字 Garden"}],["$","meta","3",{"name":"author","content":"汉字 Garden"}],["$","link","4",{"rel":"manifest","href":"/apps/chinese/manifest.webmanifest"}],["$","meta","5",{"name":"keywords","content":"Chinese characters,hanzi,HSK 1,HSK 2,HSK 3,pinyin,stroke order,mnemonics,learn Chinese,Chinese flashcards"}],["$","meta","6",{"name":"creator","content":"汉字 Garden"}],["$","meta","7",{"name":"publisher","content":"汉字 Garden"}],["$","meta","8",{"name":"robots","content":"noindex, follow"}],"$La","$Lb","$Lc","$Ld","$Le","$Lf","$L10","$L11","$L12","$L13","$L14","$L15","$L16","$L17","$L18","$L19","$L1a","$L1b","$L1c","$L1d","$L1e","$L1f","$L20"]}]}]}],"$L21"]}],"isPartial":"$@22","staleTime":"$7","varyParams":null},{"rsc":"$L23","isPartial":"$@24","staleTime":"$7","varyParams":"$25"}],"isUpgradeableISRFallback":false,"a":"$@26","rootVaryParams":null,"needsRuntimeRequest":"$@27"}
+28:I[27201,["/apps/chinese/_next/static/chunks/3ktmve-totke0.js"],"IconMark"]
+29:I[39756,["/apps/chinese/_next/static/chunks/3ktmve-totke0.js"],"default"]
+2a:I[37457,["/apps/chinese/_next/static/chunks/3ktmve-totke0.js"],"default"]
+5:null
+a:["$","meta","9",{"name":"category","content":"education"}]
+b:["$","link","10",{"rel":"canonical","href":"https://levi218.github.io/apps/chinese/"}]
+c:["$","meta","11",{"name":"format-detection","content":"telephone=no, address=no, email=no"}]
+d:["$","meta","12",{"property":"og:title","content":"汉字 Garden — learn the most-used Chinese characters"}]
+e:["$","meta","13",{"property":"og:description","content":"Learn the most-used Chinese characters of HSK 1-3. Every character comes with pinyin, meanings, stroke count, radical, its building blocks, example words and a playful mnemonic poem."}]
+f:["$","meta","14",{"property":"og:url","content":"https://levi218.github.io/apps/chinese/"}]
+10:["$","meta","15",{"property":"og:site_name","content":"汉字 Garden"}]
+11:["$","meta","16",{"property":"og:locale","content":"en_US"}]
+12:["$","meta","17",{"property":"og:image","content":"https://levi218.github.io/apps/chinese/og.png"}]
+13:["$","meta","18",{"property":"og:image:width","content":"1200"}]
+14:["$","meta","19",{"property":"og:image:height","content":"630"}]
+15:["$","meta","20",{"property":"og:image:alt","content":"汉字 Garden — learn the 565 most-used Chinese characters, HSK 1 to 3"}]
+16:["$","meta","21",{"property":"og:type","content":"website"}]
+17:["$","meta","22",{"name":"twitter:card","content":"summary_large_image"}]
+18:["$","meta","23",{"name":"twitter:title","content":"汉字 Garden — learn the most-used Chinese characters"}]
+19:["$","meta","24",{"name":"twitter:description","content":"Learn the most-used Chinese characters of HSK 1-3. Every character comes with pinyin, meanings, stroke count, radical, its building blocks, example words and a playful mnemonic poem."}]
+1a:["$","meta","25",{"name":"twitter:image","content":"https://levi218.github.io/apps/chinese/og.png"}]
+1b:["$","link","26",{"rel":"icon","href":"/apps/chinese/icon.svg","type":"image/svg+xml"}]
+1c:["$","link","27",{"rel":"icon","href":"/apps/chinese/favicon-32.png","sizes":"32x32","type":"image/png"}]
+1d:["$","link","28",{"rel":"icon","href":"/apps/chinese/favicon-96.png","sizes":"96x96","type":"image/png"}]
+1e:["$","link","29",{"rel":"icon","href":"/apps/chinese/favicon.ico","sizes":"32x32","type":"image/x-icon"}]
+1f:["$","link","30",{"rel":"apple-touch-icon","href":"/apps/chinese/apple-icon.png","sizes":"180x180","type":"image/png"}]
+20:["$","$L28","31",{}]
+21:["$","meta",null,{"name":"next-size-adjust","content":""}]
+23:["$","$1","c",{"children":[null,["$","$L29",null,{"parallelRouterKey":"children","template":["$","$L2a",null,{}]}]]}]
+27:true
+7:300
+7:C
+26:0
+22:"$undefined"
+24:"$undefined"
+6:"$undefined"
