@@ -53,8 +53,22 @@ export type Plan = {
   out: string;
   apps: PlannedApp[];
   verdicts: Verdict[];
+  /**
+   * Published sub-apps not built this run whose files are carried over from the
+   * live site (`--keep-published`). Empty unless that option is set.
+   */
+  kept: KeptApp[];
   /** Fatal problems, collected rather than thrown so the panel can show them all. */
   problems: string[];
+};
+
+export type KeptApp = {
+  slug: string;
+  /** `apps/<slug>`: the same path in the published tree and in `out/`. */
+  path: string;
+  /** Absolute path inside `out/` the published copy is restored to. */
+  target: string;
+  url: string;
 };
 
 export type ResolveOptions = {
@@ -69,6 +83,13 @@ export type ResolveOptions = {
   only?: string[] | null;
   /** Build no sub-apps at all (`--skip-apps`). */
   skipApps?: boolean;
+  /**
+   * Carry over, from the live site, every published sub-app that is not built
+   * this run — skipped by `--only` / `--skip-apps`, or whose source folder is
+   * not on this machine — instead of dropping it from the deploy or failing.
+   * Every other problem stays fatal.
+   */
+  keepPublished?: boolean;
   /** Injected for tests. */
   exists?: (file: string) => boolean;
   /** Injected for tests. Returns a project's `package.json` scripts. */
@@ -119,12 +140,14 @@ export function resolvePlan(options: ResolveOptions): Plan {
     basePath = "",
     only = null,
     skipApps = false,
+    keepPublished = false,
     exists = existsSync,
     scriptsOf = defaultScriptsOf,
   } = options;
 
   const out = path.resolve(root, "out");
   const apps: PlannedApp[] = [];
+  const kept: KeptApp[] = [];
   const verdicts: Verdict[] = [];
   const problems: string[] = [];
   const claimed = new Map<string, string>();
@@ -154,6 +177,11 @@ export function resolvePlan(options: ResolveOptions): Plan {
 
     const source = resolveSourceDir(root, project.source.dir);
     const deploy = project.deploy;
+    const url = `${basePath}/${deploy.path}/`;
+    const keep = (why: string) => {
+      verdict.reason = `kept from the published site (${why})`;
+      kept.push({ slug: project.slug, path: deploy.path, target: path.join(out, deploy.path), url });
+    };
 
     // Everything below is a real problem, and it is fatal only when the project
     // claims to be published — a draft with a missing folder is just a draft.
@@ -165,6 +193,14 @@ export function resolvePlan(options: ResolveOptions): Plan {
         : null) ??
       missingScript(deploy.buildCommand, scriptsOf, source.path, exists);
 
+    // A folder that is simply not on this machine is the one problem the live
+    // copy can stand in for: nothing about the project has changed.
+    const absent = !source.error && !exists(source.path);
+    if (absent && keepPublished && project.status === "published") {
+      if (claim(deploy.path, project.slug)) keep("source not on this machine");
+      continue;
+    }
+
     if (blocked) {
       verdict.reason = verdict.reason ?? blocked;
       if (project.status === "published") {
@@ -174,27 +210,20 @@ export function resolvePlan(options: ResolveOptions): Plan {
       continue;
     }
 
-    const previous = claimed.get(deploy.path);
-    if (previous) {
-      const clash = `${deploy.path} is already taken by ${previous}`;
-      verdict.reason = clash;
-      verdict.fatal = clash;
-      problems.push(`${project.slug}: ${clash}`);
-      continue;
-    }
-    claimed.set(deploy.path, project.slug);
+    if (!claim(deploy.path, project.slug)) continue;
 
     if (verdict.reason) continue; // not published — nothing more to plan
     if (skipApps) {
-      verdict.reason = "skipped (--skip-apps)";
+      if (keepPublished) keep("--skip-apps");
+      else verdict.reason = "skipped (--skip-apps)";
       continue;
     }
     if (only && !only.includes(project.slug)) {
-      verdict.reason = "skipped (--only)";
+      if (keepPublished) keep("--only");
+      else verdict.reason = "skipped (--only)";
       continue;
     }
 
-    const url = `${basePath}/${deploy.path}/`;
     const vars = { siteUrl, basePath, slug: project.slug };
     verdict.built = true;
     apps.push({
@@ -216,7 +245,22 @@ export function resolvePlan(options: ResolveOptions): Plan {
     });
   }
 
-  return { siteUrl, basePath, out, apps, verdicts, problems };
+  return { siteUrl, basePath, out, apps, kept, verdicts, problems };
+
+  /** Two projects may not land on one path; the second is fatal. */
+  function claim(deployPath: string, slug: string): boolean {
+    const previous = claimed.get(deployPath);
+    if (!previous) {
+      claimed.set(deployPath, slug);
+      return true;
+    }
+    const clash = `${deployPath} is already taken by ${previous}`;
+    const verdict = verdicts[verdicts.length - 1];
+    verdict.reason = clash;
+    verdict.fatal = clash;
+    problems.push(`${slug}: ${clash}`);
+    return false;
+  }
 }
 
 /**

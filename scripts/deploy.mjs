@@ -9,11 +9,17 @@
  *
  *   --dry-run   build, check, and print the file diff against the published
  *               branch — then stop without committing or pushing
+ *   --inject    leave the published site as it is and add only what this run
+ *               built: each app's `apps/<slug>/`, its entry in the manifest
+ *               and the sitemap, and the `projects/` pages that list it. For
+ *               shipping a project from a checkout that cannot rebuild the
+ *               rest of the site faithfully (e.g. posts that only exist on
+ *               another machine). Pair it with `--only <slug>`.
  *
  * Anything else is forwarded to `build-site.mjs` (`--only`, `--force`, …).
  */
 
-import { cp, mkdir, readFile, readdir, rm } from "node:fs/promises";
+import { cp, mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import path from "node:path";
 
@@ -30,7 +36,11 @@ const OUT = path.join(ROOT, "out");
 
 const argv = process.argv.slice(2);
 const dryRun = argv.includes("--dry-run");
-const buildArgs = argv.filter((arg) => arg !== "--dry-run");
+const inject = argv.includes("--inject");
+const buildArgs = argv.filter((arg) => arg !== "--dry-run" && arg !== "--inject");
+// `--inject` publishes nothing but the apps it built, so the build itself must
+// not fail on — or drop — the apps it is leaving alone.
+if (inject && !buildArgs.includes("--keep-published")) buildArgs.push("--keep-published");
 
 const local = (args, options = {}) => run("git", args, { cwd: ROOT, ...options });
 
@@ -75,12 +85,20 @@ if (known) {
   await run("git", ["rm", "-rf", "--quiet", "."], { cwd: WORKTREE, allowFailure: true });
 }
 
-// Replace the tree wholesale: a deleted page must disappear from the site, and
-// the only thing in here that is not build output is git's own bookkeeping.
-for (const entry of await readdir(WORKTREE)) {
-  if (entry !== ".git") await rm(path.join(WORKTREE, entry), { recursive: true, force: true });
+if (inject) {
+  await injectInto(WORKTREE);
+  // The staged tree is a mix of two builds, so it is checked again as a whole.
+  const staged = path.relative(ROOT, WORKTREE);
+  await step("Checking the injected tree", "node", ["scripts/check-export.mjs", staged], cleanup);
+  await step("Checking the injected links", "node", ["scripts/check-links.mjs", staged], cleanup);
+} else {
+  // Replace the tree wholesale: a deleted page must disappear from the site, and
+  // the only thing in here that is not build output is git's own bookkeeping.
+  for (const entry of await readdir(WORKTREE)) {
+    if (entry !== ".git") await rm(path.join(WORKTREE, entry), { recursive: true, force: true });
+  }
+  await cp(OUT, WORKTREE, { recursive: true });
 }
-await cp(OUT, WORKTREE, { recursive: true });
 
 await run("git", ["add", "-A"], { cwd: WORKTREE });
 const staged = await run("git", ["status", "--porcelain"], { cwd: WORKTREE });
@@ -122,26 +140,81 @@ console.log(`  ${BRANCH} / (root).\n`);
  */
 async function message() {
   const report = await readFile(LAST_BUILD_FILE, "utf8").then(JSON.parse, () => null);
+  // An inject ships only what it built; anything kept is already on the branch.
   const apps = (report?.apps ?? [])
-    .filter((app) => app.status !== "failed")
+    .filter((app) => app.status !== "failed" && !(inject && app.status === "kept"))
     .map((app) => `  ${app.slug}${app.rev ? `@${app.rev}` : ""} — ${app.url}`);
   const head = (await local(["rev-parse", "--short", "HEAD"], { allowFailure: true })).stdout;
   return [
-    `Deploy ${new Date().toISOString().slice(0, 16).replace("T", " ")}`,
+    `${inject ? "Inject" : "Deploy"} ${new Date().toISOString().slice(0, 16).replace("T", " ")}`,
     "",
-    `shell${head ? `@${head}` : ""}`,
+    `${inject ? "projects/ from shell" : "shell"}${head ? `@${head}` : ""}`,
     ...apps,
   ].join("\n");
 }
 
-async function step(label, command, args) {
+/**
+ * `--inject`: overlay this run's apps onto the published tree, touching nothing
+ * else a visitor reads.
+ *
+ * The new `projects/` pages reference this build's `_next/` assets, so those
+ * are added alongside the published ones — never in place of them, because
+ * every page left as it was still loads its own. Next falls back to a full
+ * page load when it navigates between pages of two different builds.
+ */
+async function injectInto(tree) {
+  const report = await readFile(LAST_BUILD_FILE, "utf8").then(JSON.parse);
+  const built = report.apps.filter((app) => app.status === "built" || app.status === "reused");
+  if (!built.length) die("--inject: this run built no app, so there is nothing to inject.");
+
+  for (const app of built) {
+    const rel = app.url.replace(/^\/+|\/+$/g, "").split("/").slice(-2).join("/"); // apps/<slug>
+    await rm(path.join(tree, rel), { recursive: true, force: true });
+    await cp(path.join(OUT, rel), path.join(tree, rel), { recursive: true });
+  }
+
+  await cp(path.join(OUT, "_next"), path.join(tree, "_next"), { recursive: true, force: false });
+  await rm(path.join(tree, "projects"), { recursive: true, force: true });
+  await cp(path.join(OUT, "projects"), path.join(tree, "projects"), { recursive: true });
+
+  // Manifest and sitemap: the published entries, plus this run's.
+  const manifestFile = path.join(tree, "apps", "manifest.json");
+  const manifest = await readFile(manifestFile, "utf8").then(JSON.parse, () => ({ apps: [] }));
+  const fresh = new Set(built.map((app) => app.slug));
+  manifest.builtAt = report.startedAt;
+  manifest.apps = [
+    ...manifest.apps.filter((app) => !fresh.has(app.slug)),
+    ...built.map(({ slug, url, rev }) => ({ slug, url, rev })),
+  ];
+  await writeFile(manifestFile, `${JSON.stringify(manifest, null, 2)}\n`);
+
+  const sitemapFile = path.join(tree, "sitemap.xml");
+  const published = await readFile(sitemapFile, "utf8").catch(() => null);
+  const ours = await readFile(path.join(OUT, "sitemap.xml"), "utf8").catch(() => null);
+  if (published && ours) {
+    const entries = (xml) => xml.match(/<url>[\s\S]*?<\/url>/g) ?? [];
+    const loc = (entry) => /<loc>([^<]*)<\/loc>/.exec(entry)?.[1];
+    const known = new Set(entries(published).map(loc));
+    const added = entries(ours).filter((entry) => !known.has(loc(entry)));
+    if (added.length) {
+      await writeFile(sitemapFile, published.replace("</urlset>", `${added.join("\n")}\n</urlset>`));
+    }
+  }
+
+  console.log(`\n  Injected ${built.map((app) => app.slug).join(", ")} and projects/ into the published tree.`);
+}
+
+async function step(label, command, args, onFailure) {
   console.log(`\n  ${label} …`);
   const result = await run(command, args, {
     cwd: ROOT,
     allowFailure: true,
     onLine: (line) => console.log(`  ${line}`),
   });
-  if (result.code !== 0) die(`${label} failed. Nothing was published.`);
+  if (result.code !== 0) {
+    await onFailure?.();
+    die(`${label} failed. Nothing was published.`);
+  }
 }
 
 async function cleanup() {

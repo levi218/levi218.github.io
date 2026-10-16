@@ -24,7 +24,10 @@ const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000").re
 const basePath = (process.env.NEXT_PUBLIC_BASE_PATH ?? "").replace(/\/+$/, "");
 
 const registry = readRegistry();
-const plan = resolvePlan({ registry, root: ROOT, siteUrl, basePath });
+// `keepPublished`: an app whose folder is not on this machine may have been
+// carried over from the live site — the index.html check below is what
+// decides whether its card still leads somewhere.
+const plan = resolvePlan({ registry, root: ROOT, siteUrl, basePath, keepPublished: true });
 const failures = [];
 const checks = [];
 
