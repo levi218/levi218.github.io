@@ -34,6 +34,38 @@
       "cover": null
     },
     {
+      "slug": "tidecall",
+      "status": "published",
+      "order": 15,
+      "title": "Tidecall",
+      "blurb": "A cozy fishing game: work the lure, read the water, and bring the harbor back. Portrait, one thumb, plays in the browser.",
+      "tags": [
+        "game"
+      ],
+      "aiAssisted": {
+        "share": 0.9,
+        "note": null
+      },
+      "source": {
+        "dir": "../tidecall",
+        "repo": "https://github.com/levi218/tidecall",
+        "ref": "main"
+      },
+      "deploy": {
+        "mode": "subpath",
+        "path": "apps/tidecall",
+        "buildCommand": "npm run build",
+        "outDir": "dist",
+        "basePathEnv": "TIDECALL_BASE_PATH",
+        "env": {}
+      },
+      "links": {
+        "source": "https://github.com/levi218/tidecall"
+      },
+      "release": {},
+      "cover": null
+    },
+    {
       "slug": "amalgam",
       "status": "draft",
       "order": 20,
