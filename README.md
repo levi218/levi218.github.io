@@ -20,7 +20,16 @@ npm test               # node --test over the schema, the resolver and discovery
 ```
 
 `npm run build` takes `--only <slug,slug>`, `--skip-apps`, `--force`,
-`--allow-partial`, `--dry-run` and `--concurrency=N`. `npm run deploy` forwards
+`--allow-partial`, `--keep-published`, `--dry-run` and `--concurrency=N`.
+
+`--keep-published` is for shipping one project without the others: any
+published app this run does not build — skipped by `--only`, or its folder is
+not on this machine — is copied unchanged from the live `gh-pages` branch
+instead of being taken down. For example, to ship only Tidecall:
+
+```bash
+npm run deploy -- --only tidecall --keep-published
+``` `npm run deploy` forwards
 all of them and adds its own `--dry-run`, which prints the diff against the
 published branch instead of pushing.
 

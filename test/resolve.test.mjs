@@ -119,6 +119,33 @@ test("--only and --skip-apps skip rather than fail", () => {
   assert.match(skipped.verdicts[0].reason, /--skip-apps/);
 });
 
+test("--keep-published carries over what this run does not build", () => {
+  const only = plan([subpath()], { only: ["other"], keepPublished: true });
+  assert.equal(only.apps.length, 0);
+  assert.deepEqual(only.kept.map((app) => app.slug), ["app"]);
+  assert.equal(only.kept[0].target, path.join(ROOT, "out", "apps/app"));
+  assert.match(only.verdicts[0].reason, /kept .*--only/);
+
+  const absent = plan([subpath()], { exists: () => false, keepPublished: true });
+  assert.deepEqual(absent.problems, []);
+  assert.deepEqual(absent.kept.map((app) => app.slug), ["app"]);
+  assert.match(absent.verdicts[0].reason, /not on this machine/);
+});
+
+test("--keep-published never excuses a real problem, or keeps a draft", () => {
+  const deploy = { ...subpath().deploy, basePathEnv: null };
+  const broken = plan([subpath({ deploy })], { keepPublished: true });
+  assert.equal(broken.kept.length, 0);
+  assert.match(broken.problems[0], /base path/);
+
+  const draft = plan([subpath({ status: "draft" })], { exists: () => false, keepPublished: true });
+  assert.equal(draft.kept.length, 0);
+  assert.equal(draft.verdicts[0].reason, "draft");
+
+  const unflagged = plan([subpath()], { only: ["other"] });
+  assert.deepEqual(unflagged.kept, []);
+});
+
 test("source.dir may not escape the parent folder or point at this repo", () => {
   assert.equal(resolveSourceDir(ROOT, "../app").error, null);
   assert.match(resolveSourceDir(ROOT, "../../elsewhere").error, /escapes/);

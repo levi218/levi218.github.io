@@ -10,6 +10,10 @@
  *   --skip-apps          the home page only
  *   --force              ignore the unchanged-source stamps
  *   --allow-partial      a failing app is dropped instead of failing the build
+ *   --keep-published     a published app this run does not build (skipped by
+ *                        --only / --skip-apps, or its folder is not on this
+ *                        machine) is copied unchanged from the live gh-pages
+ *                        branch instead of disappearing from the deploy
  *   --dry-run            print the plan, touch nothing
  *   --concurrency=N      build N apps at once (default 1)
  *
@@ -25,6 +29,7 @@ import { readRegistry, writeJsonCache, LAST_BUILD_FILE, ROOT } from "../lib/regi
 import { resolvePlan } from "../lib/registry/resolve.ts";
 import { SECRETS, loadEnv } from "./lib/credentials.mjs";
 import { run } from "./lib/exec.mjs";
+import { git } from "./lib/credentials/github.mjs";
 import { fingerprintSource, humanBytes, measure } from "./lib/fingerprint.mjs";
 
 loadEnv();
@@ -43,6 +48,7 @@ const options = {
   skipApps: flag("skip-apps"),
   force: flag("force"),
   allowPartial: flag("allow-partial"),
+  keepPublished: flag("keep-published"),
   dryRun: flag("dry-run"),
   concurrency: Math.max(1, Number(value("concurrency") ?? 1) || 1),
 };
@@ -58,6 +64,7 @@ const basePath = (process.env.NEXT_PUBLIC_BASE_PATH ?? "").replace(/\/+$/, "");
 const NO_SECRETS = Object.fromEntries(Object.keys(SECRETS).map((name) => [name, undefined]));
 
 const STAMPS = path.join(ROOT, ".cache", "stamps");
+const PUBLISHED_BRANCH = "gh-pages";
 
 const plan = resolvePlan({
   registry: readRegistry(),
@@ -66,6 +73,7 @@ const plan = resolvePlan({
   basePath,
   only: options.only,
   skipApps: options.skipApps,
+  keepPublished: options.keepPublished,
 });
 
 // ── Report the plan ──────────────────────────────────────────────────────────
@@ -73,7 +81,8 @@ const plan = resolvePlan({
 console.log(`\n  Site   ${siteUrl}${basePath || ""}`);
 console.log(`  Out    ${path.relative(ROOT, plan.out)}\n`);
 for (const verdict of plan.verdicts) {
-  const mark = verdict.built ? "build" : verdict.fatal ? "FATAL" : "skip";
+  const isKept = plan.kept.some((app) => app.slug === verdict.slug);
+  const mark = verdict.built ? "build" : verdict.fatal ? "FATAL" : isKept ? "keep" : "skip";
   const why = verdict.fatal ?? verdict.reason ?? "";
   console.log(`  ${mark.padEnd(6)}${verdict.slug.padEnd(14)}${why}`);
 }
@@ -93,6 +102,10 @@ if (options.dryRun) {
     console.log(`    env      ${Object.entries(app.env).map(([k, v]) => `${k}=${v}`).join("  ")}`);
     console.log(`    copy     ${path.relative(app.dir, app.outDir)} → ${path.relative(ROOT, app.target)}`);
     console.log(`    url      ${app.url}`);
+  }
+  for (const app of plan.kept) {
+    console.log(`\n  ${app.slug}`);
+    console.log(`    keep     ${PUBLISHED_BRANCH}:${app.path} → ${path.relative(ROOT, app.target)}`);
   }
   console.log("\n  Dry run — nothing was built.\n");
   process.exit(0);
@@ -138,6 +151,7 @@ if (shell.code !== 0) {
 const shellMs = Date.now() - shellStart;
 
 await pool(plan.apps, options.concurrency, buildApp);
+if (plan.kept.length) await keepPublished(plan.kept);
 
 const failed = results.filter((result) => result.status === "failed");
 if (failed.length && !options.allowPartial) {
@@ -223,6 +237,69 @@ async function buildApp(app) {
     ...size,
   });
   console.log(`  ${app.slug}: ${size.files} files, ${humanBytes(size.bytes)} → ${app.url}`);
+}
+
+/**
+ * Restore apps this run does not build from the live site, byte for byte.
+ *
+ * The deploy replaces the published tree wholesale, so an app missing from
+ * `out/` is an app taken down. This is what lets one project ship from a
+ * machine that does not have every sibling folder checked out.
+ */
+async function keepPublished(apps) {
+  const started = Date.now();
+  console.log(`\n  Keeping ${apps.map((app) => app.slug).join(", ")} from the published site …`);
+
+  await git(["fetch", "--quiet", "origin", PUBLISHED_BRANCH], { cwd: ROOT, allowFailure: true });
+  const ref = await firstRef([`refs/remotes/origin/${PUBLISHED_BRANCH}`, `refs/heads/${PUBLISHED_BRANCH}`]);
+  if (!ref) {
+    for (const app of apps) fail(app, started, `nothing to keep: no ${PUBLISHED_BRANCH} branch has been published`);
+    return;
+  }
+
+  const manifest = await run("git", ["show", `${ref}:apps/manifest.json`], { cwd: ROOT, allowFailure: true });
+  const revs = new Map(
+    (manifest.code === 0 ? JSON.parse(manifest.stdout).apps ?? [] : []).map((app) => [app.slug, app.rev ?? null]),
+  );
+
+  const tarball = path.join(ROOT, ".cache", "keep.tar");
+  await mkdir(path.dirname(tarball), { recursive: true });
+  for (const app of apps) {
+    const archive = await run("git", ["archive", "--format=tar", "-o", tarball, ref, "--", app.path], {
+      cwd: ROOT,
+      allowFailure: true,
+    });
+    if (archive.code !== 0) {
+      fail(app, started, `${app.path} is not on the published ${PUBLISHED_BRANCH} branch`);
+      continue;
+    }
+    await rm(app.target, { recursive: true, force: true });
+    const extract = await run("tar", ["-xf", tarball, "-C", plan.out], { cwd: ROOT, allowFailure: true });
+    if (extract.code !== 0) {
+      fail(app, started, `could not unpack ${app.path} from ${PUBLISHED_BRANCH}`);
+      continue;
+    }
+
+    const size = measure(app.target);
+    results.push({
+      slug: app.slug,
+      status: "kept",
+      url: app.url,
+      rev: revs.get(app.slug) ?? null,
+      durationMs: Date.now() - started,
+      ...size,
+    });
+    console.log(`  ${app.slug}: ${size.files} files, ${humanBytes(size.bytes)} kept at ${app.url}`);
+  }
+  await rm(tarball, { force: true });
+}
+
+async function firstRef(refs) {
+  for (const ref of refs) {
+    const found = await run("git", ["rev-parse", "--verify", "--quiet", ref], { cwd: ROOT, allowFailure: true });
+    if (found.code === 0) return ref;
+  }
+  return null;
 }
 
 function fail(app, started, reason) {
