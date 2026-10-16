@@ -29,7 +29,14 @@ instead of being taken down. For example, to ship only Tidecall:
 
 ```bash
 npm run deploy -- --only tidecall --keep-published
-``` `npm run deploy` forwards
+```
+
+`npm run deploy -- --only <slug> --inject` goes further and leaves the published
+site exactly as it is: only the app itself, the `projects/` pages, the manifest
+and the sitemap change. Use it when this checkout cannot rebuild the rest of the
+site faithfully — say, posts that live only on another machine. The new pages
+load their own `_next/` assets, which are added beside the published ones, and
+the merged tree is re-checked before the push. `npm run deploy` forwards
 all of them and adds its own `--dry-run`, which prints the diff against the
 published branch instead of pushing.
 
