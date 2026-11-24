@@ -3,7 +3,7 @@ import type { MetadataRoute } from "next";
 import { readPosts } from "@/lib/posts";
 import { readRegistry } from "@/lib/registry/load.ts";
 import { listedProjects } from "@/lib/registry/resolve.ts";
-import { canonical } from "@/lib/site";
+import { canonical, origin } from "@/lib/site";
 
 /**
  * The pages this app owns, plus the entry point of each hosted sub-app.
@@ -41,5 +41,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
         lastModified: now,
         priority: 0.7,
       })),
+    // A project's own GitHub Pages site shares this host, so it may be listed
+    // here; a sitemap may not name URLs on other hosts.
+    ...projects
+      .filter((project) => project.links.live && new URL(project.links.live).origin === origin)
+      .map((project) => ({ url: project.links.live!, lastModified: now, priority: 0.7 })),
   ];
 }

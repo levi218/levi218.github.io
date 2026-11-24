@@ -33,8 +33,11 @@ export function actionsFor(project: Project): CardAction[] {
   if (project.links.itch) {
     actions.push({ label: "Play on itch.io", href: project.links.itch, icon: "itch", external: true });
   }
-  const source = project.links.source ?? project.source.repo;
-  if (source) actions.push({ label: "Source", href: source, icon: "github", external: true });
+  // Only an explicit `links.source`: `source.repo` is recorded for every git
+  // remote, private ones included, and a private repo is a 404 to a visitor.
+  if (project.links.source) {
+    actions.push({ label: "Source", href: project.links.source, icon: "github", external: true });
+  }
   if (project.links.npm) {
     actions.push({ label: "npm", href: project.links.npm, icon: "npm", external: true });
   }

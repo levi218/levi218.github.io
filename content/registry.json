@@ -16,7 +16,7 @@
       },
       "source": {
         "dir": "../chinese",
-        "repo": null,
+        "repo": "https://github.com/levi218/hanzi-garden",
         "ref": "main"
       },
       "deploy": {
@@ -29,7 +29,9 @@
           "NEXT_PUBLIC_SITE_URL": "{{siteUrl}}/apps/chinese"
         }
       },
-      "links": {},
+      "links": {
+        "source": "https://github.com/levi218/hanzi-garden"
+      },
       "release": {},
       "cover": null
     },
@@ -59,9 +61,7 @@
         "basePathEnv": "TIDECALL_BASE_PATH",
         "env": {}
       },
-      "links": {
-        "source": "https://github.com/levi218/tidecall"
-      },
+      "links": {},
       "release": {},
       "cover": null
     },
@@ -147,6 +147,8 @@
         "mode": "external"
       },
       "links": {
+        "live": "https://levi218.github.io/p5js-to-lottie/",
+        "source": "https://github.com/levi218/p5js-to-lottie",
         "npm": "https://www.npmjs.com/package/p5js-to-lottie"
       },
       "release": {},
