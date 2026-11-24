@@ -68,6 +68,12 @@ for (const project of listedProjects(registry)) {
 if (isFile(path.join(OUT, ".nojekyll"))) checks.push(".nojekyll");
 else failures.push(".nojekyll is missing — Pages would delete every _next/ asset");
 
+// Google Search Console re-checks ownership from this file; if it disappears
+// from the live site, the property stops being verified.
+const GSC = "google81b7b4678547fbec.html";
+if (isFile(path.join(OUT, GSC))) checks.push(GSC);
+else failures.push(`${GSC} is missing — Search Console would lose verification (keep it in public/)`);
+
 // External links are schema-validated URLs, but a placeholder host is a link
 // that 404s for a visitor, which no amount of URL parsing catches.
 for (const project of listedProjects(registry)) {
