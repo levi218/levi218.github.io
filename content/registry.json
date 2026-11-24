@@ -178,6 +178,58 @@
       },
       "release": {},
       "cover": null
+    },
+    {
+      "slug": "iwork2pdf",
+      "status": "published",
+      "order": 60,
+      "title": "iwork2pdf",
+      "blurb": "Convert Apple iWork documents (.pages, .numbers, .key) to PDF offline — no Mac, no upload. A command line for Linux, macOS and Windows, or right in the browser.",
+      "tags": [
+        "app",
+        "library"
+      ],
+      "aiAssisted": null,
+      "source": {
+        "dir": "../iwork2pdf",
+        "repo": "https://github.com/levi218/iworktopdf",
+        "ref": "main"
+      },
+      "deploy": {
+        "mode": "external"
+      },
+      "links": {
+        "live": "https://levi218.github.io/iworktopdf/",
+        "source": "https://github.com/levi218/iworktopdf"
+      },
+      "release": {},
+      "cover": null
+    },
+    {
+      "slug": "sketch2pdf",
+      "status": "published",
+      "order": 70,
+      "title": "sketch2pdf",
+      "blurb": "Convert Sketch files to PDF without Sketch or macOS: one page per artboard, shapes and text kept vector. From the command line or in the browser.",
+      "tags": [
+        "app",
+        "library"
+      ],
+      "aiAssisted": null,
+      "source": {
+        "dir": "../sketch2pdf",
+        "repo": "https://github.com/levi218/sketch2pdf",
+        "ref": "main"
+      },
+      "deploy": {
+        "mode": "external"
+      },
+      "links": {
+        "live": "https://levi218.github.io/sketch2pdf/",
+        "source": "https://github.com/levi218/sketch2pdf"
+      },
+      "release": {},
+      "cover": null
     }
   ]
 }
